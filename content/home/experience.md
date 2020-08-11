@@ -18,27 +18,65 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
-  company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
+  title = "Research Scientist"
+  company = "Multimedia Communications Lab, TU Darmstadt"
+  company_url = "www.kom.tu-darmstadt.de"
+  location = "Darmstadt, Germany"
+  date_start = "2016-11-02"
   date_end = ""
   description = """
   Responsibilities include:
   
-  * Analysing
-  * Modelling
-  * Deploying
+  * Teaching
+  * Research
+  * Software Development
   """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Visiting Lecturer"
+  company = "University of Bremen"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Bremen, Germany"
+  date_start = "2016-08"
+  date_end = "2016-09"
+  description = """Taught Android Programming in 19th International Summer University for Women in Computing."""
+  
+  [[experience]]
+  title = "Junior Research Assistant (as working student)"
+  company = "Distributed Multimedia Systems, TU Darmstadt"
+  company_url = ""
+  location = "Darmstadt, Germany"
+  date_start = "2014-08"
+  date_end = "2016-10"
+  description = """Software Development for video streaming, computing and analysis."""
+ 
+  [[experience]]
+  title = "Teaching Assistant (as working student)"
+  company = "Telecooperation Lab, TU Darmstadt"
+  company_url = ""
+  location = "Darmstadt, Germany"
+  date_start = "2015-11"
+  date_end = "2016-04"
+  description = """Exercise development and correction for the course Distributed Systems"""
+  
+   
+  [[experience]]
+  title = "Software Developer (as working student)"
+  company = "Kobil GmbH"
+  company_url = ""
+  location = "Darmstadt, Germany"
+  date_start = "2014-04"
+  date_end = "2016-10"
+  description = """Software Development for security applications."""
+  
+   
+  [[experience]]
+  title = "Member Technical Staff"
+  company = "HCL Technologies"
+  company_url = ""
+  location = "Noida, India"
+  date_start = "2011-08"
+  date_end = "2013-10"
+  description = """Software Development for embedded systems."""
 
 +++

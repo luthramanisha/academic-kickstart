@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   date_end = ""
   description = """
   Responsibilities include:
-  
+
   * Teaching
   * Research
   * Software Development
@@ -37,46 +37,45 @@ date_format = "Jan 2006"
   company = "University of Bremen"
   company_url = ""
   location = "Bremen, Germany"
-  date_start = "2016-08"
-  date_end = "2016-09"
+  date_start = "Aug 2016"
+  date_end = "Sept 2016"
   description = """Taught Android Programming in 19th International Summer University for Women in Computing."""
-  
-  [[experience]]
+
+[[experience]]
   title = "Junior Research Assistant (as working student)"
   company = "Distributed Multimedia Systems, TU Darmstadt"
   company_url = ""
   location = "Darmstadt, Germany"
-  date_start = "2014-08"
-  date_end = "2016-10"
+  date_start = "Aug 2014"
+  date_end = "Oct 2016"
   description = """Software Development for video streaming, computing and analysis."""
- 
-  [[experience]]
+
+[[experience]]
   title = "Teaching Assistant (as working student)"
   company = "Telecooperation Lab, TU Darmstadt"
   company_url = ""
   location = "Darmstadt, Germany"
-  date_start = "2015-11"
-  date_end = "2016-04"
+  date_start = "Nov 2015"
+  date_end = "Apr 2016"
   description = """Exercise development and correction for the course Distributed Systems"""
-  
-   
-  [[experience]]
+
+[[experience]]
   title = "Software Developer (as working student)"
   company = "Kobil GmbH"
   company_url = ""
   location = "Darmstadt, Germany"
-  date_start = "2014-04"
-  date_end = "2016-10"
+  date_start = "Apr 2014"
+  date_end = "Oct 2016"
   description = """Software Development for security applications."""
-  
-   
-  [[experience]]
+
+
+[[experience]]
   title = "Member Technical Staff"
   company = "HCL Technologies"
   company_url = ""
   location = "Noida, India"
-  date_start = "2011-08"
-  date_end = "2013-10"
+  date_start = "Aug 2011"
+  date_end = "Oct 2013"
   description = """Software Development for embedded systems."""
 
 +++

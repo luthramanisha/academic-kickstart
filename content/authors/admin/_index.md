@@ -14,7 +14,7 @@ role: Research Scientist in Adaptive Communication Systems Group
 
 # Organizations/Affiliations
 organizations:
-- name: Manisha Luthra
+- name: KOM TU Darmstadt
   url: "https://bit.ly/KOM-Manisha-Luthra"
 
 # Short bio (displayed in user profile at end of posts)
@@ -33,7 +33,7 @@ education:
   - course: MSc in Computer Science with specialization in Distributed Systems
     institution: Technical University of Darmstadt, Germany
     year: 2016
-  - course: BSc in Computer Science
+  - course: BSc (Hons) in Computer Science
     institution: Delhi University, India
     year: 2011
 

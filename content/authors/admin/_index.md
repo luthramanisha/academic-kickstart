@@ -69,4 +69,4 @@ email: ""
 # - Researchers
 # - Visitors
 ---
-Manisha Luthra is a fourth year PhD Student at Technical University of Darmstadt. She is affiliated to german research project MAKI which is about improving future internet by multi mechanism adaptations. In her research, she focuses on flexible operator placement in data streaming systems in the presence of heterogeneous infrastructure such as cloud, edge and fog nodes.
+Manisha Luthra is a fourth year PhD Student at Technical University of Darmstadt. She is affiliated to german research project MAKI which is about improving future internet by multi mechanism adaptations. In her research, she focuses on flexible operator placement in data streaming systems in the presence of heterogeneous infrastructure of cloud, edge and fog nodes.

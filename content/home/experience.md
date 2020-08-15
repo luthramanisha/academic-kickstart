@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "Multimedia Communications Lab, TU Darmstadt"
   company_url = "www.kom.tu-darmstadt.de"
   location = "Darmstadt, Germany"
-  date_start = "2016-11-02"
+  date_start = "11 2016"
   date_end = ""
   description = """
   Responsibilities include:

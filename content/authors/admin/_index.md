@@ -27,9 +27,9 @@ interests:
 
 education:
   courses:
-  - course: PhD in Electrical Engineering and Information Technology (pursuing)
-    institution: Technical University of Darmstadt, Germany
-    year: 2021
+#  - course: PhD in Electrical Engineering and Information Technology (pursuing)
+#    institution: Technical University of Darmstadt, Germany
+#    year: 2021
   - course: MSc in Computer Science with specialization in Distributed Systems
     institution: Technical University of Darmstadt, Germany
     year: 2016

@@ -55,7 +55,7 @@ date_format = "Jan 2006"
   company = "Telecooperation Lab, TU Darmstadt"
   company_url = ""
   location = "Darmstadt, Germany"
-  date_start = "2015-11-1"
+  date_start = "2015-11-01"
   date_end = "2016-04-01"
   description = """Exercise development and correction for the course Distributed Systems"""
 

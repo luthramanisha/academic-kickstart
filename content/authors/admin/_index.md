@@ -69,4 +69,4 @@ email: ""
 # - Researchers
 # - Visitors
 ---
-Manisha Luthra is a fourth year PhD Student at Technical University of Darmstadt. She is affiliated to DFG project [MAKI](https://www.maki.tu-darmstadt.de/sfb_maki/ueber_maki/index.en.jsp){:target="_blank"} which is about Multi-Mechanisms Adaptation for the Future Internet. In her research, she focuses on flexible operator placement in data streaming and complex event processing systems in the presence of heterogeneous infrastructure of cloud, edge and fog nodes.
+Manisha Luthra is a fourth year PhD Student at Technical University of Darmstadt. She is affiliated to DFG project [MAKI](https://www.maki.tu-darmstadt.de/sfb_maki/ueber_maki/index.en.jsp) which is about Multi-Mechanisms Adaptation for the Future Internet. In her research, she focuses on flexible operator placement in data streaming and complex event processing systems in the presence of heterogeneous infrastructure of cloud, edge and fog nodes.

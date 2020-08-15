@@ -48,6 +48,9 @@ social:
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/luthramanisha
+- icon: linkedin
+  icon_pack: fas
+  link: https://www.linkedin.com/in/manishaluthra/
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=8pyrVeoAAAAJ

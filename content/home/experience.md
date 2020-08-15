@@ -37,8 +37,8 @@ date_format = "Jan 2006"
   company = "University of Bremen"
   company_url = ""
   location = "Bremen, Germany"
-  date_start = "Aug 2016"
-  date_end = "Sept 2016"
+  date_start = "08 2016"
+  date_end = "09 2016"
   description = """Taught Android Programming in 19th International Summer University for Women in Computing."""
 
 [[experience]]

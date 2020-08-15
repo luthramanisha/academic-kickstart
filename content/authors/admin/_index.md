@@ -45,9 +45,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:manisha.luthra@kom.tu-darmstadt.de'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/luthramanisha
+#- icon: twitter
+#  icon_pack: fab
+#  link: https://twitter.com/luthramanisha
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=8pyrVeoAAAAJ

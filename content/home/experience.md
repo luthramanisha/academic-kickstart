@@ -42,7 +42,7 @@ date_format = "Jan 2006"
   description = """Taught Android Programming in 19th International Summer University for Women in Computing."""
 
 [[experience]]
-  title = "Junior Research Assistant (as working student)"
+  title = "Junior Research Assistant"
   company = "Distributed Multimedia Systems, TU Darmstadt"
   company_url = ""
   location = "Darmstadt, Germany"
@@ -51,7 +51,7 @@ date_format = "Jan 2006"
   description = """Software Development for video streaming, computing and analysis."""
 
 [[experience]]
-  title = "Teaching Assistant (as working student)"
+  title = "Teaching Assistant"
   company = "Telecooperation Lab, TU Darmstadt"
   company_url = ""
   location = "Darmstadt, Germany"
@@ -60,14 +60,13 @@ date_format = "Jan 2006"
   description = """Exercise development and correction for the course Distributed Systems"""
 
 [[experience]]
-  title = "Software Developer (as working student)"
+  title = "Software Developer"
   company = "Kobil GmbH"
   company_url = ""
   location = "Darmstadt, Germany"
   date_start = "2014-04-01"
   date_end = "2016-10-01"
   description = """Software Development for security applications."""
-
 
 [[experience]]
   title = "Member Technical Staff"

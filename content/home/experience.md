@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Research Scientist"
   company = "Multimedia Communications Lab, TU Darmstadt"
-  company_url = "www.kom.tu-darmstadt.de"
+  company_url = "https://www.kom.tu-darmstadt.de"
   location = "Darmstadt, Germany"
   date_start = "2016-11-02"
   date_end = ""
@@ -49,24 +49,6 @@ date_format = "Jan 2006"
   date_start = "2014-08-01"
   date_end = "2016-10-01"
   description = """Software Development for video streaming, computing and analysis."""
-
-[[experience]]
-  title = "Teaching Assistant"
-  company = "Telecooperation Lab, TU Darmstadt"
-  company_url = ""
-  location = "Darmstadt, Germany"
-  date_start = "2015-11-01"
-  date_end = "2016-04-01"
-  description = """Exercise development and correction for the course Distributed Systems"""
-
-[[experience]]
-  title = "Software Developer"
-  company = "Kobil GmbH"
-  company_url = ""
-  location = "Darmstadt, Germany"
-  date_start = "2014-04-01"
-  date_end = "2016-10-01"
-  description = """Software Development for security applications."""
 
 [[experience]]
   title = "Member Technical Staff"

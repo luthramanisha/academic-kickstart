@@ -33,9 +33,7 @@ subtitle = ""
      name = "Demo"
      tag = "Demo and posters"
 
-[[project]]
-  title = "TCEP"
-  subtitle = "Transitions in operator placement"
+
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -77,4 +75,6 @@ subtitle = ""
 
  # CSS class.
  css_class = ""
+
+
 +++

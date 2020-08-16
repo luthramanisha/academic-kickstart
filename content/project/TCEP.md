@@ -1,7 +1,6 @@
 ---
 title: "TCEP"
-subtitle: "Transitions in operator placement"
+date: 2020-08-16T20:05:12+02:00
 external_link: "https://luthramanisha.github.io/TCEP/"
 image: "TCEP.png"
-draft: true
 ---

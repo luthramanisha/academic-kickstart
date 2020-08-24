@@ -39,7 +39,7 @@ date_format = "Jan 2006"
   location = "Bremen, Germany"
   date_start = "2016-08-01"
   date_end = "2016-09-01"
-  description = """Taught Android Programming in 19th International Summer University for Women in Computing."""
+  description = """Taught a course on Android programming at the 19th International Summer University for Women in Computing. Check it out on [github](https://github.com/luthramanisha/Intro_Android_Workshop_IF16)"""
 
 [[experience]]
   title = "Junior Research Assistant"
@@ -48,7 +48,7 @@ date_format = "Jan 2006"
   location = "Darmstadt, Germany"
   date_start = "2014-08-01"
   date_end = "2016-10-01"
-  description = """Software Development for video streaming, computing and analysis."""
+  description = """Software Development for video streaming, quality measurement and analysis."""
 
 [[experience]]
   title = "Member Technical Staff"

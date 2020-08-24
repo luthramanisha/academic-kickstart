@@ -100,7 +100,7 @@ address = {street = "Rundeturmstr. 10", city = "Darmstadt", region = "", postcod
 coordinates = {latitude = "49.8748", longitude = "8.6605"}
 
 # Directions for visitors to locate you.
-directions = "Enter Building S3|20 and take the stairs to Office 207 on Floor 2"
+directions = "Enter Building S3|20 and take the stairs to Office 217 on Floor 2"
 
 # Office hours
 # A list of your office hours. To remove, set to an empty list `[]`.

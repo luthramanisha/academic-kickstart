@@ -75,9 +75,9 @@ email: ""
 ---
 Manisha Luthra is currently working as a Postdoctoral Researcher at the
 [Data Management Lab](https://www.informatik.tu-darmstadt.de/datamanagement/).
-She completed her doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from
+She completed her doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from the
 [Technical University of Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) in August 2021.
-Before joining the doctoral program, she obtained her master's and bachelor's degree from
+Before joining the doctoral program, she obtained her master's and bachelor's degree from the
 Technical University of Darmstadt and [Delhi University, India](http://www.du.ac.in), respectively.  
-In her research, she broadly focuses on accelerating performance of stream processing
+In her research, she broadly focuses on accelerating the performance of stream processing
 and complex event processing systems using modern hardware and networks.

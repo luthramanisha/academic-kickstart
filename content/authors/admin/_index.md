@@ -14,7 +14,7 @@ role: Postdoctoral Researcher at the Data Management Lab
 
 # Organizations/Affiliations
 organizations:
-- name: DM TU Darmstadt
+- name: DM Lab, TU Darmstadt
   url: "https://www.informatik.tu-darmstadt.de/datamanagement/datamanagement/dm_people/dm_people_detailseite_113600.en.jsp"
 
 # Short bio (displayed in user profile at end of posts)
@@ -30,6 +30,7 @@ education:
     department: Department of Electrical Engineering and Information Technology
     institution: Technical University of Darmstadt, Germany
     year: 2021
+    extra: Thesis available [here](https://tuprints.ulb.tu-darmstadt.de/19285/)
   - course: M. Sc. Computer Science with specialization in Distributed Systems
     institution: Technical University of Darmstadt, Germany
     year: 2016
@@ -74,9 +75,9 @@ email: ""
 ---
 Manisha Luthra is currently working as a Postdoctoral Researcher at the
 [Data Management Lab](https://www.informatik.tu-darmstadt.de/datamanagement/).
-She completed her doctoral degree (officially, Dr.-Ing. or Doctor of Engineering)
+She completed her doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from
 [Technical University of Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) in August 2021.
-Before joining the doctoral program she obtained her master's and bachelor's degree from
-Technical University of Darmstadt and [Delhi University](http://www.du.ac.in), respectively.  
+Before joining the doctoral program, she obtained her master's and bachelor's degree from
+Technical University of Darmstadt and [Delhi University, India](http://www.du.ac.in), respectively.  
 In her research, she broadly focuses on accelerating performance of stream processing
 and complex event processing systems using modern hardware and networks.

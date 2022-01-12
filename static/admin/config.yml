@@ -64,6 +64,8 @@ collections:
               - {label: Course, name: course, widget: string, required: true}
               - {label: Institution, name: institution, widget: string, required: true}
               - {label: Year, name: year, widget: number, valueType: int, required: false}
+              - {label: Department, name: department, widget: string, required: false}
+              - {label: Extra, name: extra, widget: string, required: false}
       - {label: "Email (to use a Gravatar.com avatar)", name: "email", widget: "string", required: false}
       - label: "Super user (is this the primary site user?)"
         name: "superuser"

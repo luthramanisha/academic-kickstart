@@ -18,7 +18,7 @@ organizations:
   url: "https://www.informatik.tu-darmstadt.de/datamanagement/datamanagement/dm_people/dm_people_detailseite_113600.en.jsp"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include stream processing/complex event processing and data-centric networking.
+bio: My research interests include stream processing/complex event processing, modern hardware and networks.
 
 interests:
 - Stream Processing and Complex Event Processing

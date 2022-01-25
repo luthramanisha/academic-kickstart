@@ -26,7 +26,7 @@ interests:
 
 education:
   courses:
-  - course: PhD. (Dr.-Ing.) with the topic titled [Network-centric Complex Event Processing](https://tuprints.ulb.tu-darmstadt.de/19285/)
+  - course: PhD. (Dr.-Ing.) with the topic titled "Network-centric Complex Event Processing"
     department: Department of Electrical Engineering and Information Technology
     institution: Technical University of Darmstadt, Germany
     year: 2016-2021

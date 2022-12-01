@@ -10,18 +10,18 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Researcher at the Data Management Lab
+role: Postdoctoral Researcher at Systems Group and DFKI
 
 # Organizations/Affiliations
 organizations:
-- name: DM Lab, TU Darmstadt
-  url: "https://www.informatik.tu-darmstadt.de/datamanagement/datamanagement/dm_people/dm_people_detailseite_113600.en.jsp"
+- name: Data and AI Systems Lab, TU Darmstadt & SAIDE Lab, DFKI
+  url: "https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stream processing/complex event processing, modern hardware and networks.
 
 interests:
-- Stream Processing and Complex Event Processing
+- Machine Learning and Systems
 - Modern Hardware and Networks
 
 education:
@@ -45,7 +45,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:manisha.luthra@cs.tu-darmstadt.de'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:manisha.luthra@dfki.de'  # For a direct email link, use "mailto:test@example.org".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/luthramanisha
@@ -74,10 +74,9 @@ email: ""
 # - Visitors
 ---
 Manisha Luthra is currently working as a Postdoctoral Researcher at the
-[Data Management Lab](https://www.informatik.tu-darmstadt.de/datamanagement/).
+[Systems Group](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) of TU Darmstadt and at the [SAIDE Lab ](https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung) of German research centre on artificial intelligence (DFKI).
 She completed her doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from the
-[Technical University of Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) in August 2021.
+[TU Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) in August 2021.
 Before joining the doctoral program, she obtained her master's and bachelor's degree from the
 Technical University of Darmstadt and [Delhi University, India](http://www.du.ac.in), respectively.  
-In her research, she broadly focuses on accelerating the performance of stream processing
-and complex event processing systems using modern hardware and networks.
+In her research, she broadly focuses on the intersection of systems and machine learning while at the same time leveraging modern hardware and networks to their best.

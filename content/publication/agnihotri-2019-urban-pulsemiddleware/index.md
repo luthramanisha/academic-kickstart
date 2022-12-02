@@ -17,6 +17,8 @@ abstract: ''
 featured: false
 publication: '*Proceedings of the 20th International Middleware Conference Demos and
   Posters (Middleware)*'
+url_pdf: https://dl.acm.org/doi/10.1145/3366627.3368116
+doi: 10.1145/3366627.3368116
 tags:
 - '"middleware"'
 - '"smart city"'
@@ -30,4 +32,3 @@ image:
   preview_only: false
 
 ---
-

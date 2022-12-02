@@ -1,7 +1,7 @@
 ---
 title: 'UrbanPulse: Adaptable Middleware to Offer City and User Centric Smart City
   Solution'
-subtitle: ''
+subtitle: 'Middleware'
 summary: ''
 date: '2019-01-01'
 draft: false

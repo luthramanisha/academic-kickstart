@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoctoral Researcher at Systems Group and DFKI
+role: Postdoc
 
 # Organizations/Affiliations
 organizations:
@@ -75,10 +75,11 @@ email: ""
 # - Researchers
 # - Visitors
 ---
-Manisha Luthra is currently working as a Postdoctoral Researcher at the
-[Systems Group](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) of TU Darmstadt and at the [SAIDE Lab ](https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung) of German research centre on artificial intelligence (DFKI).
-She completed her doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from the
-[TU Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) in August 2021.
-Before joining the doctoral program, she obtained her master's and bachelor's degree from the
-Technical University of Darmstadt and [Delhi University, India](http://www.du.ac.in), respectively.  
-In her research, she broadly focuses on the intersection of systems and machine learning while at the same time leveraging modern hardware and networks to their best.
+I'm currently working as a postdoctoral researcher at the
+[Systems Group](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) of TU Darmstadt. Furthermore, I started recently a new position as senior researcher at the [SAIDE Lab ](https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung) of German Research Centre for Artificial Intelligence (DFKI) led by [Prof. Carsten Binnig](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_18624.en.jsp).
+
+In 2021, I completed my doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from 
+[TU Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) with a thesis on [Network-centric Complex Event Processing](https://tuprints.ulb.tu-darmstadt.de/19285/) that was graded with summa cum laude. 
+My thesis received a German national award of [Best Ph.D. thesis](https://www.informatik.tu-darmstadt.de/fb20/ueber_uns_details_271936.en.jsp) in the field of distributed systems by the [special interest group on Communication and Distributed Systems (KuVS)](https://www.kuvs.de/awards/).  
+
+Currently in my research I broadly focus on the intersection of systems and machine learning while at the same time leveraging modern hardware and networks to their best.

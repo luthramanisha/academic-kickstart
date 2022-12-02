@@ -14,7 +14,7 @@ role: Postdoc
 
 # Organizations/Affiliations
 organizations:
-- name: Data and AI Systems Lab, TU Darmstadt 
+- name: Data and AI Systems Lab, TU Darmstadt
   url: "https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp"
 - name: SAIDE Lab, DFKI
   url: https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung
@@ -75,11 +75,11 @@ email: ""
 # - Researchers
 # - Visitors
 ---
-I'm currently working as a postdoctoral researcher at the
+I am currently working as a postdoctoral researcher at the
 [Systems Group](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) of TU Darmstadt. Furthermore, I started recently a new position as senior researcher at the [SAIDE Lab ](https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung) of German Research Centre for Artificial Intelligence (DFKI) led by [Prof. Carsten Binnig](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_18624.en.jsp).
 
-In 2021, I completed my doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from 
-[TU Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) with a thesis on [Network-centric Complex Event Processing](https://tuprints.ulb.tu-darmstadt.de/19285/) that was graded with summa cum laude. 
+In 2021, I completed my doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from
+[TU Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) with a thesis on [Network-centric Complex Event Processing](https://tuprints.ulb.tu-darmstadt.de/19285/) that was graded with summa cum laude.
 My thesis received the German national award for the [_Best Ph.D. thesis in the field of distributed systems_](https://www.informatik.tu-darmstadt.de/fb20/ueber_uns_details_271936.en.jsp) by the [special interest group on Communication and Distributed Systems (KuVS)](https://www.kuvs.de/awards/).  
 
-Currently in my research, I broadly focus on the intersection of systems and machine learning while at the same time leveraging modern hardware and networks to their best.
+Currently in my research, I broadly focus on the intersection of systems and machine learning while at the same time leveraging modern hardware and networks at their best.

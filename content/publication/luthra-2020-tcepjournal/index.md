@@ -1,6 +1,6 @@
 ---
 title: 'TCEP: Transitions in operator placement to adapt to dynamic network environments'
-subtitle: 'Middleware 2022'
+subtitle: 'Journal of Computer and System Sciences: Special Issue on Algorithmic Theory of Dynamic Networks and its Applications'
 summary: ''
 date: '2022-01-01'
 draft: false
@@ -20,6 +20,7 @@ featured: true
 publication: '*Journal of Computer and System Sciences*'
 url_pdf: https://doi.org/10.1016/j.jcss.2021.05.003
 doi: 10.1016/j.jcss.2021.05.003
+url_code: https://github.com/luthramanisha/TCEP
 tags:
 - '"stream processing"'
 - '"complex event processing"'

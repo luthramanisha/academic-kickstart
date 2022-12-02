@@ -15,10 +15,7 @@ abstract: ''
 featured: false
 publication: '*Proceedings of the IEEE International Conference on Big Data Workshops
   (BigData Workshop)*'
-tags:
-- C2
-links:
-- name: URL
-  url: https://luthramanisha.github.io/CEPless
+url_pdf: https://ieeexplore.ieee.org/document/9378142
+doi: 10.1109/BigData50022.2020.9378142
+url_code: https://luthramanisha.github.io/CEPless
 ---
-

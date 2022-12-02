@@ -14,8 +14,10 @@ role: Postdoctoral Researcher at Systems Group and DFKI
 
 # Organizations/Affiliations
 organizations:
-- name: Data and AI Systems Lab, TU Darmstadt & SAIDE Lab, DFKI
+- name: Data and AI Systems Lab, TU Darmstadt 
   url: "https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp"
+- name: SAIDE Lab, DFKI
+  url: https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stream processing/complex event processing, modern hardware and networks.

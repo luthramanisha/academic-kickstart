@@ -20,7 +20,7 @@ featured: false
 publication: '*Journal of Computer and System Sciences*'
 url_pdf: https://doi.org/10.1016/j.jcss.2021.05.003
 doi: 10.1016/j.jcss.2021.05.003
-url_code: https://github.com/luthramanisha/TCEP
+url_code: https://luthramanisha.github.io/TCEP/
 tags:
 - '"stream processing"'
 - '"complex event processing"'

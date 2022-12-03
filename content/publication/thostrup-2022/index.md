@@ -9,7 +9,7 @@ authors:
 - Lasse Thostrup
 - Gloria Doci
 - Nils Boeschen
-- **Manisha Luthra**
+- Manisha Luthra
 - Carsten Binnig
 publication_types:
 - '1'

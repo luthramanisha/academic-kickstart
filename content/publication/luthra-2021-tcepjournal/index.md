@@ -16,7 +16,7 @@ categories: []
 publication_types:
 - '2'
 abstract: 'Distributed Complex Event Processing (DCEP) is a commonly used paradigm to detect and act on situational changes of many applications, including the Internet of Things (IoT). DCEP achieves this using a simple specification of analytical tasks on data streams called operators and their distributed execution on a set of infrastructure. The adaptivity of DCEP to the dynamics of IoT applications is essential and very challenging in the face of changing demands concerning Quality of Service. In our previous work, we addressed this issue by enabling transitions, which allow for the adaptive use of operator placement mechanisms. In this article, we extend the transition methodology by optimizing the costs of transition and analyzing the behavior using multiple operator placement mechanisms. Furthermore, we provide an extensive evaluation on the costs of transition imposed by operator migrations and learning, as it can inflict overhead on the performance if operated uncoordinatedly.'
-featured: true
+featured: false
 publication: '*JCSS*'
 url_pdf: https://doi.org/10.1016/j.jcss.2021.05.003
 doi: 10.1016/j.jcss.2021.05.003

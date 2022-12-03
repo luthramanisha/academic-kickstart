@@ -13,8 +13,7 @@ publication_types:
 - '1'
 abstract: ''
 featured: false
-publication: '*Proceedings of the IEEE International Conference on Big Data Workshops
-  (BigData Workshop)*'
+publication: '*IEEE BigData 2020*'
 url_pdf: https://ieeexplore.ieee.org/document/9378142
 doi: 10.1109/BigData50022.2020.9378142
 url_code: https://luthramanisha.github.io/CEPless

@@ -13,8 +13,7 @@ authors:
 - Carsten Binnig
 publication_types:
 - '1'
-abstract: 'Recently, machine learning has successfully been applied to many
-database problems such as query optimization, physical design tuning, or cardinality estimation. However, the predominant paradigm
+abstract: 'Recently, machine learning has successfully been applied to many database problems such as query optimization, physical design tuning, or cardinality estimation. However, the predominant paradigm
 to design such learned database components is workload-driven
 learning, where a representative workload has to be executed on
 the database to gather training data. This costly procedure has to
@@ -29,4 +28,8 @@ to other tasks and validate our approaches in two case studies.'
 featured: false
 publication: 'AIDB workshop in VLDB 2022*'
 url_pdf: https://drive.google.com/file/d/1nD0oacRuc180YzkIpqGM6rUJizsEic6m/view
+tags:
+- '"machine learning"'
+- '"zero-shot learning"'
+- '"databases"'
 ---

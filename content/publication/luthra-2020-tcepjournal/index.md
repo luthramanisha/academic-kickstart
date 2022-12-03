@@ -1,7 +1,7 @@
 ---
 title: 'TCEP: Transitions in Operator Placement to Adapt to Dynamic Network Environments'
 date: '2021-01-01'
-draft: false
+draft: true
 publishDate: '2022-12-02T17:55:47.596210Z'
 authors:
 - Manisha Luthra

@@ -1,7 +1,7 @@
 ---
 title: 'Operator as a Service: Stateful Serverless Complex Event Processing'
 date: '2020-01-01'
-draft: true
+draft: false
 publishDate: '2022-01-12T12:03:28.958601Z'
 authors:
 - Manisha Luthra

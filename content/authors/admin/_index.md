@@ -28,15 +28,15 @@ interests:
 
 education:
   courses:
-  - course: PhD. (Dr.-Ing.) with the topic titled "Network-centric Complex Event Processing"
+  - course: Ph.D. (Dr.-Ing.) with the topic titled "Network-centric Complex Event Processing"
     department: Department of Electrical Engineering and Information Technology
     institution: Technical University of Darmstadt, Germany
     year: 2016-2021
     extra: Thesis available [here](https://tuprints.ulb.tu-darmstadt.de/19285/)
-  - course: M. Sc. Computer Science with specialization in Distributed Systems
+  - course: M.Sc. Computer Science with specialization in Distributed Systems
     institution: Technical University of Darmstadt, Germany
     year: 2013-2016
-  - course: B. Sc. with Honours in Computer Science
+  - course: B.Sc. with Honours in Computer Science
     institution: Delhi University, India
     year: 2008-2011
 

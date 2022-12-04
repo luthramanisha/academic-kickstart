@@ -2,7 +2,7 @@
 title: 'TCEP: Transitions in operator placement to adapt to dynamic network environments'
 subtitle: 'Journal of Computer and System Sciences: Special Issue on Algorithmic Theory of Dynamic Networks and its Applications'
 summary: ''
-date: '2022-01-01'
+date: '2021-12-01'
 draft: false
 publishDate: '2022-12-02T16:30:22.370097Z'
 authors:

@@ -82,6 +82,6 @@ I am currently working as a postdoctoral researcher at the
 
 In 2021, I completed my doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from
 [TU Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) with a thesis on [Network-centric Complex Event Processing](https://tuprints.ulb.tu-darmstadt.de/19285/) that was graded with summa cum laude.
-My thesis received the German national award for the [_Best Ph.D. thesis in the field of distributed systems_](https://www.informatik.tu-darmstadt.de/fb20/ueber_uns_details_271936.en.jsp) by the [special interest group on Communication and Distributed Systems (KuVS)](https://www.kuvs.de/awards/).  
+My thesis received the _German national award_ for the [_Best Ph.D. thesis in the field of distributed systems_](https://www.informatik.tu-darmstadt.de/fb20/ueber_uns_details_271936.en.jsp) by the [special interest group on Communication and Distributed Systems (KuVS)](https://www.kuvs.de/awards/).  
 
 Currently in my research, I broadly focus on the intersection of systems and machine learning while at the same time leverage modern hardware and networks to their best.

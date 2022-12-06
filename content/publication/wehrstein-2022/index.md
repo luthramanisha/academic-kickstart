@@ -26,7 +26,7 @@ tional tasks beyond query latency prediction. Hence, in this paper,
 we propose several directions to generalize zero-shot cost models
 to other tasks and validate our approaches in two case studies.'
 featured: false
-publication: 'AIDB workshop in VLDB 2022*'
+publication: '*AIDB workshop in VLDB 2022*'
 url_pdf: https://drive.google.com/file/d/1nD0oacRuc180YzkIpqGM6rUJizsEic6m/view
 tags:
 - '"machine learning"'

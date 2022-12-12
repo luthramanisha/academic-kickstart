@@ -17,4 +17,8 @@ publication: '*IEEE BigData 2020*'
 url_pdf: https://ieeexplore.ieee.org/document/9378142
 doi: 10.1109/BigData50022.2020.9378142
 url_code: https://luthramanisha.github.io/CEPless
+tags:
+- '"serverless computing"'
+- '"complex event processing"'
+- '"stream processing"'
 ---

@@ -70,3 +70,5 @@ subtitle = ""
 {{% alert note %}}
 [Filter publications]({{< ref "/publication/_index.md" >}}).
 {{% /alert %}}
+
+Refer all my publications [here](https://scholar.google.com/citations?user=8pyrVeoAAAAJ)

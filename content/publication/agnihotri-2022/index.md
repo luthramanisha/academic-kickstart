@@ -15,4 +15,8 @@ featured: false
 publication: '*ACM DEBS 2022*'
 url_pdf: https://dl.acm.org/doi/10.1145/3524860.3543281
 doi: 10.1145/3524860.3543281
+tags:
+- '"machine learning"'
+- '"zero-shot learning"'
+- '"stream processing"'
 ---

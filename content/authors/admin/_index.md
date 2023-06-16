@@ -54,7 +54,7 @@ social:
   link: https://www.linkedin.com/in/manishaluthra/
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com/citations?user=8pyrVeoAAAAJ
+  link: https://scholar.google.com/citations?user=g7LcUY0AAAAJ&hl=en
 - icon: github
   icon_pack: fab
   link: https://github.com/luthramanisha

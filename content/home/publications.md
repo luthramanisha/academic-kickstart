@@ -71,4 +71,4 @@ subtitle = ""
 [Filter publications]({{< ref "/publication/_index.md" >}}).
 {{% /alert %}}
 
-*This is a selected list of publications. To view all my publications click [here](https://scholar.google.com/citations?user=8pyrVeoAAAAJ).*
+*This is a selected list of publications. To view all my publications click [here](https://scholar.google.com/citations?user=g7LcUY0AAAAJ&hl=en).*

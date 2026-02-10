@@ -81,7 +81,8 @@ highlight_name: true
 # - Visitors
 ---
 I am a researcher working at the intersection of real-time data systems, machine learning, and intelligent data processing. My goal is to build the next generation of data systems that not only process continuous streams of data with high performance but also learn, adapt, and understand rich, multimodal inputs such as text, images, audio, and sensor signals all at real-time. 
-Starting April 2026, I will join Ruhr-Universität Bochum as a Junior Professor of Databases and Information Systems, where I will establish a research group on next-generation data systems that combine classical data system principles with modern AI techniques.
+Starting April 2026, I will join [Ruhr-Universität Bochum](https://informatik.rub.de/en/faculty/) as a Junior Professor of Databases and Information Systems, where I will establish a research group on next-generation data systems that combine classical data system principles with modern AI techniques.
+
 I am currently a Junior Research Group Lead as [Athene Young Investigator](https://tu-darmstadt.shorthandstories.com/ayi-2025-im-portrait/#group-section-Dr-Manisha-Luthra-Agnihotri) at the
 [Systems Group](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) of TU Darmstadt. Before that, I was a deputy head leading the [SAIDE Lab ](https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung) of German Research Centre for Artificial Intelligence (DFKI) Darmstadt together with [Prof. Carsten Binnig](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_18624.en.jsp).
 

@@ -10,10 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoc
+role: Incoming Junior Professor
 
 # Organizations/Affiliations
 organizations:
+- name: Databases and Information Systems Chair, Ruhr-Universität Bochum
+  url: https://informatik.rub.de/en/faculty/  
 - name: Data and AI Systems Lab, TU Darmstadt
   url: "https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp"
 - name: SAIDE Lab, DFKI
@@ -24,6 +26,7 @@ bio: My research interests include stream processing/complex event processing, m
 
 interests:
 - Machine Learning and Systems
+- Multimodal Data Processing
 - Modern Hardware and Networks
 
 education:
@@ -77,8 +80,10 @@ highlight_name: true
 # - Researchers
 # - Visitors
 ---
-I am currently working as a postdoctoral researcher at the
-[Systems Group](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) of TU Darmstadt. Further, I work as a senior researcher at the [SAIDE Lab ](https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung) of German Research Centre for Artificial Intelligence (DFKI) headed by [Prof. Carsten Binnig](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_18624.en.jsp).
+I am a researcher working at the intersection of real-time data systems, machine learning, and intelligent data processing. My goal is to build the next generation of data systems that not only process continuous streams of data with high performance but also learn, adapt, and understand rich, multimodal inputs such as text, images, audio, and sensor signals all at real-time. 
+Starting April 2026, I will join Ruhr-Universität Bochum as a Junior Professor of Databases and Information Systems, where I will establish a research group on next-generation data systems that combine classical data system principles with modern AI techniques.
+I am currently a Junior Research Group Lead as [Athene Young Investigator](https://tu-darmstadt.shorthandstories.com/ayi-2025-im-portrait/#group-section-Dr-Manisha-Luthra-Agnihotri) at the
+[Systems Group](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) of TU Darmstadt. Before that, I was a deputy head leading the [SAIDE Lab ](https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung) of German Research Centre for Artificial Intelligence (DFKI) Darmstadt together with [Prof. Carsten Binnig](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_18624.en.jsp).
 
 In 2021, I completed my doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from
 [TU Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) with a thesis on [Network-centric Complex Event Processing](https://tuprints.ulb.tu-darmstadt.de/19285/) that was graded with summa cum laude.

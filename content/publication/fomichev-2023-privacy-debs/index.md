@@ -16,6 +16,5 @@ publication: '*ACM DEBS 2023*'
 url_pdf: https://dl.acm.org/doi/10.1145/3583678.3596889
 doi: 10.1145/3583678.3596889
 tags:
-- '"privacy"'
 - '"stream processing"'
 ---

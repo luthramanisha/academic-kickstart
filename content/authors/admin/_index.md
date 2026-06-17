@@ -18,8 +18,6 @@ organizations:
   url: https://informatik.rub.de/en/faculty/  
 - name: Data and AI Systems Lab, TU Darmstadt
   url: "https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp"
-- name: SAIDE Lab, DFKI
-  url: https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stream processing/complex event processing, modern hardware and networks.
@@ -50,7 +48,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:manisha.luthra@dfki.de'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:manisha.luthra@rub.de'  # For a direct email link, use "mailto:test@example.org".
 #- icon: twitter
 #  icon_pack: fab
 #  link: https://twitter.com/luthramanisha

@@ -1,0 +1,263 @@
+// Site-specific styling. Loaded after the Academic theme's own styles, so all
+// `$sta-*` theme variables (primary colour, backgrounds, fonts) are available here.
+
+/*************************************************
+ *  News page (`content/news.md` + `data/news.toml`)
+ **************************************************/
+
+$news-rail-color: rgba($sta-primary, 0.22);
+$news-rail-color-dark: rgba(lighten($sta-primary, 25%), 0.35);
+
+.news-page {
+  padding-bottom: 3rem;
+}
+
+.news-intro {
+  max-width: 40rem;
+  margin-bottom: 2.75rem;
+  opacity: 0.85;
+}
+
+.news-year {
+  margin-bottom: 2.5rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Year heading: small caps numeral trailing off into a hairline rule.
+.news-year__label {
+  display: flex;
+  align-items: center;
+  margin: 0 0 1.4rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  color: $sta-primary;
+
+  &::after {
+    content: "";
+    flex: 1 1 auto;
+    height: 1px;
+    margin-left: 1.1rem;
+    background: linear-gradient(to right, $news-rail-color, rgba($sta-primary, 0));
+  }
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-item {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  animation: news-item-in 0.55s cubic-bezier(0.22, 0.68, 0.28, 1) both;
+}
+
+// Left column: date and optional category label, right-aligned against the rail.
+.news-item__aside {
+  padding: 0.1rem 1.6rem 0 0;
+  text-align: right;
+}
+
+.news-item__date {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  opacity: 0.75;
+  white-space: nowrap;
+}
+
+.news-item__tag {
+  display: inline-block;
+  margin-top: 0.45rem;
+  padding: 0.1rem 0.42rem;
+  border: 1px solid $news-rail-color;
+  border-radius: 2px;
+  font-size: 0.64rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+// Right column carries the vertical rail and the marker dot.
+.news-item__body {
+  position: relative;
+  padding: 0 0 1.9rem 1.6rem;
+  border-left: 1px solid $news-rail-color;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0.42rem;
+    left: -0.3rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background: $sta-primary;
+    box-shadow: 0 0 0 3px $sta-background;
+    transition: transform 0.2s ease-out;
+  }
+}
+
+.news-item:last-child .news-item__body {
+  padding-bottom: 0.4rem;
+  border-left-color: transparent;
+}
+
+.news-item:hover .news-item__body::before {
+  transform: scale(1.35);
+}
+
+.news-item__title {
+  margin: 0;
+  font-size: 1.12rem;
+  line-height: 1.45;
+  font-weight: 600;
+}
+
+.news-item__summary {
+  margin-top: 0.4rem;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  opacity: 0.82;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.news-item__links {
+  margin-top: 0.65rem;
+
+  a {
+    display: inline-block;
+    margin-right: 1.1rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-bottom: 1px solid transparent;
+
+    &::after {
+      content: "\2192"; // rightwards arrow
+      margin-left: 0.3rem;
+      opacity: 0.55;
+      transition: transform 0.18s ease-out;
+      display: inline-block;
+    }
+
+    &:hover {
+      border-bottom-color: currentColor;
+      text-decoration: none;
+
+      &::after {
+        transform: translateX(3px);
+      }
+    }
+  }
+}
+
+.news-empty {
+  padding: 2.5rem 1.5rem;
+  border: 1px dashed $news-rail-color;
+  border-radius: 3px;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 0.35rem;
+    font-weight: 600;
+  }
+
+  &__hint {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    opacity: 0.7;
+  }
+}
+
+@keyframes news-item-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+// Stack the date above the entry on narrow screens; the rail would crowd the text.
+@media screen and (max-width: 767px) {
+  .news-item {
+    grid-template-columns: 1fr;
+  }
+
+  .news-item__aside {
+    display: flex;
+    align-items: baseline;
+    padding: 0;
+    text-align: left;
+  }
+
+  .news-item__tag {
+    margin-top: 0;
+    margin-left: 0.7rem;
+  }
+
+  .news-item__body {
+    padding: 0.35rem 0 1.6rem 0;
+    border-left: none;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .news-item:last-child .news-item__body {
+    padding-bottom: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .news-item {
+    animation: none;
+  }
+
+  .news-item__body::before,
+  .news-item__links a::after {
+    transition: none;
+  }
+}
+
+/* Dark mode: lift the rail and reseat the dot on the dark background. */
+.dark {
+  .news-year__label {
+    &::after {
+      background: linear-gradient(to right, $news-rail-color-dark, rgba($sta-primary, 0));
+    }
+  }
+
+  .news-item__body {
+    border-left-color: $news-rail-color-dark;
+
+    &::before {
+      background: lighten($sta-primary, 18%);
+      box-shadow: 0 0 0 3px $sta-dark-background;
+    }
+  }
+
+  .news-item:last-child .news-item__body {
+    border-left-color: transparent;
+  }
+
+  .news-item__tag,
+  .news-empty {
+    border-color: $news-rail-color-dark;
+  }
+}

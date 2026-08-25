@@ -1,0 +1,107 @@
+# News items shown on the /news/ page.
+#
+# To add an item, copy one of the blocks below to the top of this file and edit it.
+# Ordering and the year headings are handled automatically from `date`.
+#
+#   date         Required. "YYYY-MM-DD". Used for sorting and for the displayed date.
+#   date_display Optional. Overrides the displayed date, e.g. "2025" or "Spring 2026".
+#   category     Optional. Short label, e.g. "Paper", "Award", "Talk", "Teaching".
+#   title        Required. One line. Markdown (emphasis, links) is allowed.
+#   summary      Optional. A sentence or two of context. Markdown is allowed.
+#   links        Optional. Any number of [[item.links]] blocks with `name` and `url`.
+#   draft        Optional. Set to true to hide an item without deleting it.
+
+[[item]]
+  date = "2026-04-01"
+  date_display = "April 2026"
+  category = "Appointment"
+  title = "Joined Ruhr-Universität Bochum as Junior Professor of Databases and Information Systems"
+  summary = "I am building a research group on next-generation data systems that combine classical data system principles with modern AI techniques. Openings for PhD students and student assistants will be announced here."
+  [[item.links]]
+    name = "Faculty of Computer Science"
+    url = "https://informatik.rub.de/en/faculty/"
+
+[[item]]
+  date = "2025-10-20"
+  date_display = "October 2025"
+  category = "Paper"
+  title = "*Towards Multimodal Stream Processing Systems* to appear at EDBT 2026"
+  summary = "A vision for streaming systems that treat multimodal LLMs as first-class operators, so queries can run in real time over text, images, audio and sensor data together."
+  [[item.links]]
+    name = "Paper"
+    url = "https://www.openproceedings.org/2026/conf/edbt/paper-218.pdf"
+  [[item.links]]
+    name = "Details"
+    url = "/publication/santos-2025-multimodal-stream/"
+
+[[item]]
+  date = "2025-08-01"
+  date_display = "August 2025"
+  category = "Papers"
+  title = "Two papers on learned cost models in PVLDB Volume 18"
+  summary = "*Opening the Black-Box: Explaining Learned Cost Models for Databases* brings explainability techniques to learned cost models, and *Learned Cost Models for Query Optimization: From Batch to Streaming Systems* carries them over to streaming workloads."
+  [[item.links]]
+    name = "Opening the Black-Box"
+    url = "/publication/heinrich-2025-blackbox-vldb/"
+  [[item.links]]
+    name = "Batch to Streaming"
+    url = "/publication/heinrich-2025-lcm-streaming-vldb/"
+
+[[item]]
+  date = "2025-06-01"
+  date_display = "June 2025"
+  category = "Paper"
+  title = "*How Good are Learned Cost Models, Really?* published at SIGMOD 2025"
+  summary = "A study of learned cost models on the query optimization tasks they are meant to support, rather than on estimation accuracy alone."
+  [[item.links]]
+    name = "Paper"
+    url = "https://dl.acm.org/doi/10.1145/3725309"
+  [[item.links]]
+    name = "Details"
+    url = "/publication/heinrich-2025-lcm-eval-sigmod/"
+
+[[item]]
+  date = "2025-03-25"
+  date_display = "March 2025"
+  category = "Paper"
+  title = "*Dema* presented at EDBT 2025"
+  summary = "Decentralized window aggregation for non-decomposable quantile functions, cutting the network overhead of centralized aggregation in IoT networks."
+  [[item.links]]
+    name = "Paper"
+    url = "https://openproceedings.org/2025/conf/edbt/paper-163.pdf"
+  [[item.links]]
+    name = "Details"
+    url = "/publication/yue-2025-dema-edbt/"
+
+[[item]]
+  date = "2025-01-01"
+  date_display = "2025"
+  category = "Award"
+  title = "Named an Athene Young Investigator at TU Darmstadt"
+  summary = "The programme supports early-career researchers in leading their own junior research group."
+  [[item.links]]
+    name = "Portrait"
+    url = "https://tu-darmstadt.shorthandstories.com/ayi-2025-im-portrait/#group-section-Dr-Manisha-Luthra-Agnihotri"
+
+[[item]]
+  date = "2024-08-26"
+  date_display = "August 2024"
+  category = "Paper"
+  title = "*PDSP-Bench* presented at TPCTC 2024"
+  summary = "A benchmarking system for parallel and distributed stream processing, built to make performance results across systems and placements comparable."
+  [[item.links]]
+    name = "Details"
+    url = "/publication/agnihotri-2024-pdspbench-tpctc/"
+
+[[item]]
+  date = "2024-05-13"
+  date_display = "May 2024"
+  category = "Papers"
+  title = "Two papers at IEEE ICDE 2024"
+  summary = "*ZEROTUNE* learns zero-shot cost models for parallelism tuning in stream processing, and *COSTREAM* predicts operator placement costs in edge-cloud environments."
+  [[item.links]]
+    name = "ZEROTUNE"
+    url = "/publication/agnihotri-2024-zerotune-icde/"
+  [[item.links]]
+    name = "COSTREAM"
+    url = "/publication/heinrich-2024-costream-icde/"

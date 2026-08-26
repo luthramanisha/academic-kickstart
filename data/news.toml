@@ -20,6 +20,12 @@
   [[item.links]]
     name = "Vision paper"
     url = "/publication/santos-2025-multimodal-stream/"
+  [[item.links]]
+    name = "GitHub"
+    url = "https://github.com/DataManagementLab/Samsara-demo"
+  [[item.links]]
+    name = "Video"
+    url = "https://www.youtube.com/watch?v=LXJtZCwokvg"
 
 [[item]]
   date = "2026-05-31"

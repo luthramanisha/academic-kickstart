@@ -307,3 +307,12 @@ $news-rail-color-dark: rgba(lighten($sta-primary, 25%), 0.35);
     border-bottom-color: $news-rail-color-dark;
   }
 }
+
+/*************************************************
+ *  Highlight the site owner's name in author lists
+ **************************************************/
+
+.author-self {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}

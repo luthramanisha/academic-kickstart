@@ -14,6 +14,7 @@ featured: false
 publication: '*aiDM@SIGMOD 2026*'
 url_pdf: https://dl.acm.org/doi/10.1145/3814940.3815324
 doi: 10.1145/3814940.3815324
+url_code: https://github.com/pratyushagnihotri/EcoLLM
 tags:
 - '"machine learning"'
 - '"data management"'

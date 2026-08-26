@@ -16,6 +16,7 @@ featured: false
 publication: '*Proc. VLDB Endow. 18(12), 2025*'
 url_pdf: https://www.vldb.org/pvldb/vol18/p5255-heinrich.pdf
 doi: 10.14778/3750601.3750645
+url_code: https://github.com/DataManagementLab/demo-explain-lcms
 tags:
 - '"machine learning"'
 - '"databases"'

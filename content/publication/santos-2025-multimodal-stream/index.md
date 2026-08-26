@@ -16,6 +16,7 @@ abstract: 'In this paper, we present a vision for a new generation of multimodal
 featured: false
 publication: '*EDBT 2026*'
 url_pdf: https://www.openproceedings.org/2026/conf/edbt/paper-218.pdf
+url_code: https://github.com/DataManagementLab/Samsara
 tags:
 - '"stream processing"'
 - '"machine learning"'

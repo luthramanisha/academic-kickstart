@@ -1,0 +1,198 @@
+# People shown on the /people/ page.
+#
+# category        Required. "PhD", "Thesis", or "Intern". Used to order entries within
+#                 each institution's section (PhD, then Thesis, then Intern).
+# name            Required.
+# role            Required. E.g. "PhD student", "Master thesis", "Student Assistant".
+# period          Optional. E.g. "2016-2021", "2023-present".
+# institution     Required. Primary university/organization during the mentoring period.
+#                 Entries are grouped into sections by this field: Ruhr Universität Bochum
+#                 and Technische Universität Darmstadt each get their own section; anything
+#                 else falls into "Other Institutions".
+# lab             Optional. Secondary institute or company alongside `institution`, e.g. "DFKI".
+# current_position Optional. Where they are now, for alumni, e.g. "Software Engineer, Acxiom".
+# draft           Optional. Set to true to hide an entry without deleting it.
+
+[[item]]
+  category = "PhD"
+  name = "Luca Witt-Schönfeld"
+  role = "PhD student"
+  period = "2026-present"
+  institution = "Ruhr Universität Bochum"
+
+[[item]]
+  category = "PhD"
+  name = "Paul Adler"
+  role = "PhD student"
+  period = "2026-present"
+  institution = "Ruhr Universität Bochum"
+
+[[item]]
+  category = "Intern"
+  name = "Aashutosh Aryal"
+  role = "Student Assistant"
+  institution = "Ruhr Universität Bochum"
+
+[[item]]
+  category = "Intern"
+  name = "Vashu Chauhan"
+  role = "Research Intern (from IIIT Delhi)"
+  period = "2026"
+  institution = "Ruhr Universität Bochum"
+  current_position = "Research Associate, Microsoft Research (Bengaluru)"
+
+[[item]]
+  category = "PhD"
+  name = "Alessandro Ferri"
+  role = "PhD (co-advise with Prof. Binnig)"
+  period = "2025-present"
+  institution = "Technische Universität Darmstadt"
+
+[[item]]
+  category = "PhD"
+  name = "Uélison Jean Lopes dos Santos"
+  role = "PhD (co-advise with Prof. Binnig)"
+  period = "2023-present"
+  institution = "Technische Universität Darmstadt"
+  lab = "DFKI"
+
+[[item]]
+  category = "PhD"
+  name = "Wang Yue"
+  role = "PhD (co-advised with Prof. Rabl)"
+  period = "2023-2025"
+  institution = "HPI Potsdam"
+  current_position = "Assistant Professor, China"
+
+[[item]]
+  category = "PhD"
+  name = "Roman Heinrich"
+  role = "PhD (co-advised with Prof. Binnig)"
+  period = "2021-2025"
+  institution = "Technische Universität Darmstadt"
+  lab = "DFKI"
+  current_position = "Digital Transformation Engineer, BASF GmbH"
+
+[[item]]
+  category = "PhD"
+  name = "Lasse Thostrup"
+  role = "PhD (co-advised with Prof. Binnig)"
+  period = "2021-2023"
+  institution = "Technische Universität Darmstadt"
+  current_position = "Senior Software Developer, MFT Energy"
+
+[[item]]
+  category = "Thesis"
+  name = "Szilard Nistor"
+  role = "Master thesis"
+  period = "2025-present"
+  institution = "Technische Universität Darmstadt"
+  current_position = "PhD student, Technische Universität Darmstadt"
+
+[[item]]
+  category = "Thesis"
+  name = "Sebastian Hennig"
+  role = "Bachelor thesis (2019) and Master thesis (2025-present)"
+  institution = "Technische Universität Darmstadt"
+  current_position = "Freelancer"
+
+[[item]]
+  category = "Thesis"
+  name = "Thilo Fiedler"
+  role = "Master thesis"
+  period = "2025"
+  institution = "Technische Universität Darmstadt"
+  lab = "etalytics GmbH"
+  current_position = "DevOps Engineer, etalytics"
+
+[[item]]
+  category = "Thesis"
+  name = "Amr Elagaty"
+  role = "Master thesis"
+  period = "2024"
+  institution = "Technische Universität Darmstadt"
+  current_position = "AI Engineer, CGI"
+
+[[item]]
+  category = "Thesis"
+  name = "Daniel Dirks"
+  role = "Master thesis"
+  period = "2024"
+  institution = "Technische Universität Darmstadt"
+  current_position = "Lead Consultant, CGI"
+
+[[item]]
+  category = "Thesis"
+  name = "Oleksandr Havrylov"
+  role = "Master thesis"
+  period = "2024"
+  institution = "Technische Universität Darmstadt"
+  current_position = "Software Engineer, exocad"
+
+[[item]]
+  category = "Thesis"
+  name = "Luca Vogel"
+  role = "Master thesis"
+  period = "2024"
+  institution = "Technische Universität Darmstadt"
+
+[[item]]
+  category = "Thesis"
+  name = "Philipp Klöppner"
+  role = "Master thesis"
+  period = "2023"
+  institution = "Technische Universität Darmstadt"
+  current_position = "Senior Software Engineer, QAware GmbH"
+
+[[item]]
+  category = "Thesis"
+  name = "Niels Danger"
+  role = "Bachelor & Master thesis"
+  period = "2018-2021"
+  institution = "Technische Universität Darmstadt"
+
+[[item]]
+  category = "Thesis"
+  name = "Johannes Karl Pfannmüller"
+  role = "Master thesis"
+  period = "2020"
+  institution = "Technische Universität Darmstadt"
+  current_position = "Senior DevOps Engineer, Software AG"
+
+[[item]]
+  category = "Thesis"
+  name = "Benedikt Lins"
+  role = "Master thesis"
+  period = "2019"
+  institution = "Technische Universität Darmstadt"
+  current_position = "Software Engineer, Acxiom"
+
+[[item]]
+  category = "Thesis"
+  name = "Ali Haider Rizvi"
+  role = "Master thesis"
+  period = "2018"
+  institution = "Technische Universität Darmstadt"
+
+[[item]]
+  category = "Thesis"
+  name = "Raheel Arif"
+  role = "Master thesis"
+  period = "2017"
+  institution = "Technische Universität Darmstadt"
+  current_position = "Principal Associate Software Engineer, Capital One (Canada)"
+
+[[item]]
+  category = "Thesis"
+  name = "Lukas Fey"
+  role = "Master thesis (co-supervised)"
+  period = "2017"
+  institution = "Technische Universität Darmstadt"
+
+[[item]]
+  category = "Intern"
+  name = "Rounak Mandal"
+  role = "Research Intern (from IIT Kharagpur)"
+  period = "2024"
+  institution = "Technische Universität Darmstadt"
+  current_position = "Research Associate, Adobe"

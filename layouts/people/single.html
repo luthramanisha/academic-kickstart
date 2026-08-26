@@ -1,0 +1,79 @@
+{{- define "main" -}}
+{{- $page := . -}}
+
+{{- $items := slice -}}
+{{- with site.Data.people -}}
+  {{- range .item -}}
+    {{- if and .name .role | and (not .draft) -}}
+      {{- $items = $items | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{/* Group by institution, ordering each group PhD, then Thesis, then Intern. */}}
+{{- $rub := slice -}}
+{{- $tuda := slice -}}
+{{- $other := slice -}}
+{{- range slice "PhD" "Thesis" "Intern" -}}
+  {{- $category := . -}}
+  {{- range $items -}}
+    {{- if eq .category $category -}}
+      {{- if eq .institution "Ruhr Universität Bochum" -}}
+        {{- $rub = $rub | append . -}}
+      {{- else if eq .institution "Technische Universität Darmstadt" -}}
+        {{- $tuda = $tuda | append . -}}
+      {{- else -}}
+        {{- $other = $other | append . -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+<article class="news-page">
+
+  <div class="universal-wrapper pt-3">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-subtitle">{{ . | markdownify | emojify }}</p>{{ end }}
+  </div>
+
+  <div class="universal-wrapper">
+    {{ with .Content }}<div class="article-style news-intro">{{ . }}</div>{{ end }}
+
+    {{ if $rub }}
+    <section class="news-year">
+      <h2 class="news-year__label">Research Associates and Students (Ruhr University Bochum)</h2>
+      <ul class="people-list">
+        {{ range $rub }}{{ partial "people_item" . }}{{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    {{ if $tuda }}
+    <section class="news-year">
+      <h2 class="news-year__label">Research Associates and Students (TU Darmstadt)</h2>
+      <ul class="people-list">
+        {{ range $tuda }}{{ partial "people_item" . }}{{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    {{ if $other }}
+    <section class="news-year">
+      <h2 class="news-year__label">Other Institutions</h2>
+      <ul class="people-list">
+        {{ range $other }}{{ partial "people_item" . }}{{ end }}
+      </ul>
+    </section>
+    {{ end }}
+
+    {{ if not $items }}
+      <div class="news-empty">
+        <p class="news-empty__title">No people listed yet.</p>
+        <p class="news-empty__hint">Add an <code>[[item]]</code> block to <code>data/people.toml</code> and it will appear here.</p>
+      </div>
+    {{ end }}
+  </div>
+
+</article>
+
+{{- end -}}

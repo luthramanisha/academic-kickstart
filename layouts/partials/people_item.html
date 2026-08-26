@@ -1,0 +1,10 @@
+<li class="people-item">
+  <div class="people-item__name">{{ .name }}</div>
+  <div class="people-item__role">{{ .role }}{{ with .period }} · {{ . }}{{ end }}</div>
+  {{ if or .institution .lab }}
+  <div class="people-item__affiliation">{{ .institution }}{{ with .lab }}, {{ . }}{{ end }}</div>
+  {{ end }}
+  {{ with .current_position }}
+  <div class="people-item__current">Now: {{ . }}</div>
+  {{ end }}
+</li>

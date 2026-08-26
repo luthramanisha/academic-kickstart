@@ -261,3 +261,49 @@ $news-rail-color-dark: rgba(lighten($sta-primary, 25%), 0.35);
     border-color: $news-rail-color-dark;
   }
 }
+
+/*************************************************
+ *  People page (`content/people.md` + `data/people.toml`)
+ **************************************************/
+
+.people-list {
+  margin: 0 0 2.5rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.people-item {
+  padding: 0.9rem 0;
+  border-bottom: 1px solid $news-rail-color;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.people-item__name {
+  font-weight: 600;
+}
+
+.people-item__role {
+  font-size: 0.9rem;
+  opacity: 0.82;
+}
+
+.people-item__affiliation {
+  font-size: 0.85rem;
+  opacity: 0.65;
+}
+
+.people-item__current {
+  margin-top: 0.2rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: $sta-primary;
+}
+
+.dark {
+  .people-item {
+    border-bottom-color: $news-rail-color-dark;
+  }
+}

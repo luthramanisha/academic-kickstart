@@ -11,7 +11,7 @@
 [[main]]
   name = "News"
   url = "news/"
-  weight = 15
+  weight = 20
 
 #[[main]]
 #  name = "Skills"
@@ -36,8 +36,18 @@
 
 [[main]]
   name = "Publications"
-  url = "/#publications"
-  weight = 20
+  url = "publication/"
+  weight = 15
+
+[[main]]
+  name = "Talks"
+  url = "talks/"
+  weight = 25
+
+[[main]]
+  name = "Mentoring"
+  url = "people/"
+  weight = 30
 
 #[[main]]
 #  name = "Contact"

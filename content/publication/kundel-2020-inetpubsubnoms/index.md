@@ -1,7 +1,7 @@
 ---
 title: Flexible Content-based Publish/Subscribe over Programmable Data Planes
 date: '2020-01-01'
-draft: true
+draft: false
 publishDate: '2022-01-12T12:03:28.931847Z'
 authors:
 - Ralf Kundel

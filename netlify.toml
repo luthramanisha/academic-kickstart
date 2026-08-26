@@ -4,7 +4,10 @@
 
 [build.environment]
   HUGO_VERSION = "0.74.3"
-  HUGO_ENABLEGITINFO = "true"
+  # The build environment only allows read-only git commands, so Hugo cannot read
+  # the git log. Page dates come from front matter instead (matches
+  # `enableGitInfo = false` in config/_default/config.toml).
+  HUGO_ENABLEGITINFO = "false"
 
 [context.production.environment]
   HUGO_ENV = "production"

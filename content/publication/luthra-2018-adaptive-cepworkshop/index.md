@@ -2,7 +2,7 @@
 title: Adaptive Complex Event Processing over Fog-Cloud Infrastructure Supporting
   Transitions
 date: '2018-01-01'
-draft: true
+draft: false
 publishDate: '2022-01-12T12:03:29.325896Z'
 authors:
 - Manisha Luthra

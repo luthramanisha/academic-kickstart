@@ -15,31 +15,12 @@ role: Junior Professor
 # Organizations/Affiliations
 organizations:
 - name: Databases and Information Systems Chair, Ruhr-Universität Bochum
-  url: https://informatik.rub.de/en/faculty/  
+  url: https://informatik.rub.de/dsys/
 - name: Data and AI Systems Lab, TU Darmstadt
   url: "https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stream processing/complex event processing, modern hardware and networks.
-
-interests:
-- Machine Learning and Systems
-- Multimodal Data Processing
-- Modern Hardware and Networks
-
-education:
-  courses:
-  - course: Ph.D. (Dr.-Ing.) with the topic titled "Network-centric Complex Event Processing"
-    department: Department of Electrical Engineering and Information Technology
-    institution: Technical University of Darmstadt, Germany
-    year: 2016-2021
-    extra: Thesis available [here](https://tuprints.ulb.tu-darmstadt.de/19285/)
-  - course: M.Sc. Computer Science with specialization in Distributed Systems
-    institution: Technical University of Darmstadt, Germany
-    year: 2013-2016
-  - course: B.Sc. with Honours in Computer Science
-    institution: Delhi University, India
-    year: 2008-2011
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons

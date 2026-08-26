@@ -1,7 +1,7 @@
 ---
 title: 'Transitions: A Protocol-Independent View of the Future Internet'
 date: '2019-01-01'
-draft: true
+draft: false
 publishDate: '2022-01-12T12:03:28.986970Z'
 authors:
 - Bastian Alt

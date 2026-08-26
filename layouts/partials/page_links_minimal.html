@@ -1,0 +1,30 @@
+{{ $page := . }}
+
+{{ $pdf := "" }}
+{{ $resource := $page.Resources.GetMatch (printf "%s.pdf" $page.File.ContentBaseName) }}
+{{ with $resource }}
+  {{ $pdf = .RelPermalink }}
+{{ else }}
+  {{ if $page.Params.url_pdf }}
+    {{ $pdf = $page.Params.url_pdf | relURL }}
+  {{ end }}
+{{ end }}
+{{ with $pdf }}
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="{{ . }}" target="_blank" rel="noopener">
+  {{ i18n "btn_pdf" }}
+</a>
+{{ end }}
+
+{{ with $page.Params.doi }}
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/{{ . }}" target="_blank" rel="noopener">
+  DOI
+</a>
+{{ end }}
+
+{{ $resource := $page.Resources.GetMatch "cite.bib" }}
+{{ with $resource }}
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="{{ .RelPermalink }}">
+  {{ i18n "btn_cite" }}
+</button>
+{{ end }}

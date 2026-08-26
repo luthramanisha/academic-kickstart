@@ -1,7 +1,7 @@
 ---
 title: Quality-aware Runtime Adaptation in Complex Event Processing
 date: '2017-01-01'
-draft: true
+draft: false
 publishDate: '2022-01-12T12:03:29.443653Z'
 authors:
 - Pascal Weisenburger

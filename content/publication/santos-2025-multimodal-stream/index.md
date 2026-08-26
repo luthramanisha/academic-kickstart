@@ -1,8 +1,8 @@
 ---
 title: 'Towards Multimodal Stream Processing Systems'
-date: '2025-10-20'
+date: '2026-03-24'
 draft: false
-publishDate: '2025-10-20T00:00:00Z'
+publishDate: '2026-03-24T00:00:00Z'
 authors:
 - Uélison Jean Lopes dos Santos
 - Alessandro Ferri

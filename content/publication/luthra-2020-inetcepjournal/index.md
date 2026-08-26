@@ -2,7 +2,7 @@
 title: Efficient Complex Event Processing in Information-centric Networking at the
   Edge (under submission)
 date: '2021-01-01'
-draft: true
+draft: false
 publishDate: '2022-01-12T12:03:28.828292Z'
 authors:
 - Manisha Luthra

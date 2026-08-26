@@ -1,0 +1,122 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+
+      {{ with .Content }}
+      <div class="article-style">{{ . }}</div>
+      {{ end }}
+
+      {{/* Distinct years, newest first. */}}
+      {{ $years := slice }}
+      {{ range .Pages.ByDate.Reverse }}
+        {{ $year := .Date.Format "2006" }}
+        {{ if not (in $years $year) }}
+          {{ $years = $years | append $year }}
+        {{ end }}
+      {{ end }}
+
+      <div class="form-row mb-4">
+        <div class="col-auto">
+          <input type="search" class="filter-search" placeholder="{{ i18n "search_placeholder" }}" autocapitalize="off"
+          autocomplete="off" autocorrect="off" role="textbox" spellcheck="false">
+        </div>
+        <div class="col-auto">
+          <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group="pubtype">
+            <option value="*">{{ i18n "publication_type" }}</option>
+            {{ $pub_types := partial "functions/get_pub_types" $ }}
+            {{ range $index, $taxonomy := site.Taxonomies.publication_types }}
+            <option value="pubtype-{{ (int $index) }}">
+              {{ index $pub_types (int $index) }}
+            </option>
+            {{ end }}
+          </select>
+        </div>
+      </div>
+
+      <div id="publication-list">
+        {{ range $years }}
+          {{ $year := . }}
+          <section class="news-year">
+            <h2 class="news-year__label" id="pub-{{ $year }}">{{ $year }}</h2>
+
+            {{ range $.Pages.ByDate.Reverse }}
+              {{ if eq (.Date.Format "2006") $year }}
+
+                {{ if .Params.publication_types }}
+                  {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
+                {{ else }}
+                  {{ $.Scratch.Set "pubtype" 0 }}
+                {{ end }}
+
+                <div class="pub-filter-item pubtype-{{ $.Scratch.Get "pubtype" }}">
+                  {{ partial "li_citation" . }}
+                </div>
+
+              {{ end }}
+            {{ end }}
+          </section>
+        {{ end }}
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var container = document.getElementById('publication-list');
+  if (!container) return;
+
+  var searchInput = document.querySelector('.filter-search');
+  var pubtypeSelect = document.querySelector('.pubtype-select');
+  var years = Array.prototype.slice.call(container.querySelectorAll('.news-year'));
+
+  function apply() {
+    var term = (searchInput && searchInput.value || '').trim().toLowerCase();
+    var pubtype = pubtypeSelect ? pubtypeSelect.value : '*';
+
+    years.forEach(function (year) {
+      var items = Array.prototype.slice.call(year.querySelectorAll('.pub-filter-item'));
+      var visibleCount = 0;
+
+      items.forEach(function (item) {
+        var matchesSearch = !term || item.textContent.toLowerCase().indexOf(term) !== -1;
+        var matchesType = pubtype === '*' || item.classList.contains(pubtype);
+        var visible = matchesSearch && matchesType;
+        item.style.display = visible ? '' : 'none';
+        if (visible) visibleCount++;
+      });
+
+      year.style.display = visibleCount > 0 ? '' : 'none';
+    });
+  }
+
+  if (searchInput) searchInput.addEventListener('input', apply);
+  if (pubtypeSelect) {
+    pubtypeSelect.addEventListener('change', function () {
+      if (pubtypeSelect.value.indexOf('pubtype-') === 0) {
+        window.location.hash = pubtypeSelect.value.replace('pubtype-', '');
+      } else {
+        window.location.hash = '';
+      }
+      apply();
+    });
+  }
+
+  var urlHash = window.location.hash.replace('#', '');
+  if (urlHash && !isNaN(urlHash) && pubtypeSelect) {
+    var hashValue = 'pubtype-' + urlHash;
+    if (pubtypeSelect.querySelector('option[value="' + hashValue + '"]')) {
+      pubtypeSelect.value = hashValue;
+    }
+  }
+
+  apply();
+})();
+</script>
+
+{{- end -}}

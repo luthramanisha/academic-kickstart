@@ -4,7 +4,7 @@ title: 'UrbanPulse: Adaptable Middleware to Offer City and User Centric Smart Ci
 subtitle: 'Middleware 2022'
 summary: ''
 date: '2019-01-01'
-draft: true
+draft: false
 publishDate: '2022-01-12T12:03:29.198989Z'
 authors:
 - Pratyush Agnihotri

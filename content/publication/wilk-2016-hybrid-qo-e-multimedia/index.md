@@ -2,7 +2,7 @@
 title: 'One Sensor is Not Enough: Adapting and Fusing Sensors for the Quality Assessment
   of User Generated Video'
 date: '2016-01-01'
-draft: true
+draft: false
 publishDate: '2022-01-12T12:03:29.475419Z'
 authors:
 - Stefan Wilk

@@ -35,7 +35,7 @@ date_format = "Jan 2006"
   date_end = ""
   image = "media/award-ayi-banner.jpg"
   icon = "photo"
-  description = "A program that qualifies early-career researchers for a professorship by increasing their scientific independence, supporting teaching and student supervision, and improving the visibility of their research profile."
+  description = "Winner of the program that qualifies early-career researchers for a professorship by increasing their scientific independence, supporting teaching and student supervision, and improving the visibility of their research profile."
   [[item.links]]
     name = "Portrait"
     url = "https://tu-darmstadt.shorthandstories.com/ayi-2025-in-portrait/#group-section-Dr-Manisha-Luthra-Agnihotri-DroNT9wI6d"

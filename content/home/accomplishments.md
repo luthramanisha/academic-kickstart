@@ -42,6 +42,9 @@ date_format = "Jan 2006"
   [[item.links]]
     name = "hoch³ Interview"
     url = "/files/hoch3-luthra-interview.pdf"
+  [[item.links]]
+    name = "AYI Awardees"
+    url = "https://www.tu-darmstadt.de/forschen/wissenschaftlicher_nachwuchs_tu/qualifikationsphase_fuer_eine_professur/athene_young_investigator/index.de.jsp"
 
 [[item]]
   organization = "Special Interest Group in Communication and Distributed Systems (KuVS)"
@@ -49,14 +52,17 @@ date_format = "Jan 2006"
   title = "German National Award for Top Dissertation"
   date_start = "2023-09-01"
   date_end = ""
-  image = ""
+  image = "media/award-kuvs-certificate.jpg"
   icon = "badge"
   description = "Winner of the top dissertation from the summa cum laude submissions all over Germany in the area of communication and distributed systems."
   [[item.links]]
     name = "See interview with DFKI"
     url = "https://dfki.de/web/news/dissertationspreis-fuer-dr-manisha-luthra"
   [[item.links]]
-    name = "See interview with TUDa"
-    url = "https://blog.kom.e-technik.tu-darmstadt.de/manisha-luthra-mit-kuvs-preis-fuer-beste-dissertation-ausgezeichnet/index.html"
+    name = "Certificate"
+    url = "/files/kuvs-dissertation-certificate.pdf"
+  [[item.links]]
+    name = "KuVS Awards"
+    url = "https://kuvs.de/awards/past"
 
 +++

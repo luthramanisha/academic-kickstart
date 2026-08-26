@@ -1,6 +1,6 @@
 ---
 title: News
-subtitle: Papers, talks, and group updates
+subtitle: Papers, awards and group updates
 type: news
 
 # Page dates. Set explicitly because the site does not derive dates from Git.
@@ -15,6 +15,3 @@ header:
   caption: ""
   image: ""
 ---
-
-Announcements from my research and group, newest first. Items are kept in
-`data/news.toml` — add a new block there to post an update.

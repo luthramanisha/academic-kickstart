@@ -12,20 +12,56 @@
 #   draft        Optional. Set to true to hide an item without deleting it.
 
 [[item]]
+  date = "2026-05-31"
+  date_display = "May 2026"
+  category = "Workshop"
+  title = "Co-organized the *aiDM* workshop at SIGMOD 2026"
+  summary = "Program chair for the Ninth International Workshop on Exploiting Artificial Intelligence Techniques for Data Management, co-located with ACM SIGMOD/PODS 2026 in Bengaluru, India."
+  [[item.links]]
+    name = "Workshop"
+    url = "https://aidm-conf.org"
+
+[[item]]
+  date = "2026-05-31"
+  date_display = "May 2026"
+  category = "Paper"
+  title = "*EcoLLM: Energy-Aware Benchmarking of LLMs for Data Processing Workloads* at aiDM@SIGMOD 2026"
+  summary = "A workload-centric benchmark for studying the energy-aware trade-offs of LLMs in data-processing tasks, showing that energy efficiency and task effectiveness are not aligned."
+  [[item.links]]
+    name = "Paper"
+    url = "https://dl.acm.org/doi/10.1145/3814940.3815324"
+  [[item.links]]
+    name = "Details"
+    url = "/publication/agnihotri-2026-ecollm-aidm/"
+
+[[item]]
+  date = "2026-03-01"
+  date_display = "March 2026"
+  category = "Paper"
+  title = "*IMPACT: Integrated Multimodal Pipeline for Rapid Accident Causality Tracking* (Student Abstract) at AAAI 2026"
+  summary = "A scalable framework for rapid traffic incident analysis over existing CCTV infrastructure, pairing real-time key-frame filtering with multimodal LLM causal reasoning."
+  [[item.links]]
+    name = "Paper"
+    url = "https://ojs.aaai.org/index.php/AAAI/article/view/42198/46159"
+  [[item.links]]
+    name = "Details"
+    url = "/publication/chauhan-2026-impact-aaai/"
+
+[[item]]
   date = "2026-04-01"
   date_display = "April 2026"
   category = "Appointment"
-  title = "Joined Ruhr-Universität Bochum as Junior Professor of Databases and Information Systems"
+  title = "Joined [Ruhr-Universität Bochum](https://informatik.rub.de/dsys/) as Junior Professor of Databases and Information Systems"
   summary = "I am building a research group on next-generation data systems that combine classical data system principles with modern AI techniques. Openings for PhD students and student assistants will be announced here."
   [[item.links]]
     name = "Faculty of Computer Science"
     url = "https://informatik.rub.de/en/faculty/"
 
 [[item]]
-  date = "2025-10-20"
-  date_display = "October 2025"
+  date = "2026-03-24"
+  date_display = "March 2026"
   category = "Paper"
-  title = "*Towards Multimodal Stream Processing Systems* to appear at EDBT 2026"
+  title = "*Towards Multimodal Stream Processing Systems* presented at EDBT 2026"
   summary = "A vision for streaming systems that treat multimodal LLMs as first-class operators, so queries can run in real time over text, images, audio and sensor data together."
   [[item.links]]
     name = "Paper"

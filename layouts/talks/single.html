@@ -1,0 +1,97 @@
+{{- define "main" -}}
+{{- $page := . -}}
+
+{{/* Collect talks from `data/talks.toml`, drop drafts, newest first.
+     Dates are ISO strings, so a plain reverse sort is chronological. */}}
+{{- $items := slice -}}
+{{- with site.Data.talks -}}
+  {{- range .item -}}
+    {{- if and .date .title | and (not .draft) -}}
+      {{- $items = $items | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if $items -}}{{- $items = sort $items "date" "desc" -}}{{- end -}}
+
+{{/* Years, in the order they appear, for the section headings. */}}
+{{- $years := slice -}}
+{{- range $items -}}
+  {{- $year := index (split .date "-") 0 -}}
+  {{- if not (in $years $year) -}}
+    {{- $years = $years | append $year -}}
+  {{- end -}}
+{{- end -}}
+
+<article class="news-page">
+
+  <div class="universal-wrapper pt-3">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-subtitle">{{ . | markdownify | emojify }}</p>{{ end }}
+  </div>
+
+  <div class="universal-wrapper">
+    {{ with .Content }}<div class="article-style news-intro">{{ . }}</div>{{ end }}
+
+    {{ if $items }}
+      {{ range $years }}
+        {{- $year := . -}}
+        <section class="news-year">
+          <h2 class="news-year__label" id="talks-{{ $year }}">{{ $year }}</h2>
+
+          <ol class="news-list">
+            {{ range $index, $item := $items }}
+              {{ if eq (index (split $item.date "-") 0) $year }}
+                {{/* Stagger the reveal, capped so items further down don't lag. */}}
+                {{ $delay := mul (cond (gt $index 8) 8 $index) 55 }}
+                <li class="news-item" style="{{ printf "animation-delay: %dms" $delay | safeCSS }}">
+
+                  <div class="news-item__aside">
+                    <time class="news-item__date" datetime="{{ $item.date }}">
+                      {{- with $item.date_display -}}
+                        {{ . }}
+                      {{- else -}}
+                        {{ dateFormat "Jan 2006" $item.date }}
+                      {{- end -}}
+                    </time>
+                    {{ with $item.category }}<span class="news-item__tag">{{ . }}</span>{{ end }}
+                  </div>
+
+                  <div class="news-item__body">
+                    <h3 class="news-item__title">
+                      {{ $page.RenderString (dict "display" "inline") $item.title }}
+                    </h3>
+
+                    {{ with $item.summary }}
+                      <div class="news-item__summary">{{ $page.RenderString (dict "display" "block") $item.summary }}</div>
+                    {{ end }}
+
+                    {{ with $item.links }}
+                      <div class="news-item__links">
+                        {{ range . }}
+                          {{ if and .name .url }}
+                            {{ $external := hasPrefix .url "http" }}
+                            <a href="{{ if $external }}{{ .url }}{{ else }}{{ .url | relURL }}{{ end }}"
+                               {{ if $external }}target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+                          {{ end }}
+                        {{ end }}
+                      </div>
+                    {{ end }}
+                  </div>
+
+                </li>
+              {{ end }}
+            {{ end }}
+          </ol>
+        </section>
+      {{ end }}
+    {{ else }}
+      <div class="news-empty">
+        <p class="news-empty__title">No talks yet.</p>
+        <p class="news-empty__hint">Add an <code>[[item]]</code> block to <code>data/talks.toml</code> and it will appear here.</p>
+      </div>
+    {{ end }}
+  </div>
+
+</article>
+
+{{- end -}}

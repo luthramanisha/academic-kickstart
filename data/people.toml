@@ -17,27 +17,28 @@
   category = "PhD"
   name = "Luca Witt-Schönfeld"
   role = "PhD student"
-  period = "2026-present"
+  period = "June 2026-present"
   institution = "Ruhr Universität Bochum"
 
 [[item]]
   category = "PhD"
   name = "Paul Adler"
   role = "PhD student"
-  period = "2026-present"
+  period = "August 2026-present"
   institution = "Ruhr Universität Bochum"
 
 [[item]]
   category = "Intern"
   name = "Aashutosh Aryal"
   role = "Student Assistant"
+  period = "September 2026-present"
   institution = "Ruhr Universität Bochum"
 
 [[item]]
   category = "Intern"
   name = "Vashu Chauhan"
   role = "Research Intern (from IIIT Delhi)"
-  period = "2026"
+  period = "March 2025-March 2026"
   institution = "Ruhr Universität Bochum"
   current_position = "Research Associate, Microsoft Research (Bengaluru)"
 

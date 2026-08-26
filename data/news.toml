@@ -12,6 +12,16 @@
 #   draft        Optional. Set to true to hide an item without deleting it.
 
 [[item]]
+  date = "2026-08-31"
+  date_display = "August 2026"
+  category = "Demo"
+  title = "Demonstrating *Samsara: A Super-Optimizer for Multimodal Stream Processing* at VLDB 2026"
+  summary = "A live demo of Samsara, the multimodal stream processing prototype introduced in our EDBT 2026 vision paper."
+  [[item.links]]
+    name = "Vision paper"
+    url = "/publication/santos-2025-multimodal-stream/"
+
+[[item]]
   date = "2026-05-31"
   date_display = "May 2026"
   category = "Workshop"

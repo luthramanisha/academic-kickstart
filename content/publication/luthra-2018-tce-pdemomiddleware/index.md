@@ -2,7 +2,7 @@
 title: Understanding the Behavior of Operator Placement Mechanisms on Large-Scale
   Networks
 date: '2018-01-01'
-draft: true
+draft: false
 publishDate: '2022-01-12T12:03:29.294576Z'
 authors:
 - Manisha Luthra

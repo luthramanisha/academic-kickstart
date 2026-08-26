@@ -2,7 +2,7 @@
 title: 'TCEP: Adapting to Dynamic User Environments by Enabling Transitions between
   Operator Placement Mechanisms'
 date: '2018-01-01'
-draft: true
+draft: false
 publishDate: '2022-01-12T12:03:29.388267Z'
 authors:
 - Manisha Luthra

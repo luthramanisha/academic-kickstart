@@ -1,5 +1,6 @@
 ---
 title: Publications
+subtitle: Full list of publications
 cms_exclude: true
 
 # View.

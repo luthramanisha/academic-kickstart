@@ -18,7 +18,5 @@ publication: '*Journal of Computer and Systems Sciences (JCSS), Special Issue on
   Theory of Dynamic Networks and its Applications (accepted for publication)*'
 tags:
 - C2
-links:
-- name: URL
-  url: https://luthramanisha.github.io/TCEP/
+url_code: https://luthramanisha.github.io/TCEP/
 ---

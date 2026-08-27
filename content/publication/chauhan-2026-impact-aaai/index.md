@@ -16,6 +16,7 @@ abstract: 'IMPACT is a scalable framework for autonomous, rapid traffic incident
 featured: false
 publication: '*AAAI 2026*'
 url_pdf: https://ojs.aaai.org/index.php/AAAI/article/view/42198/46159
+url_code: https://github.com/endeavorXx/STREET
 tags:
 - '"multimodal"'
 - '"computer vision"'

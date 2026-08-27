@@ -14,6 +14,7 @@ abstract: 'Aggregating data using count-based windows is a formidable challenge 
 featured: false
 publication: '*EDBT 2024*'
 url_pdf: https://openproceedings.org/2024/conf/edbt/paper-104.pdf
+url_code: https://github.com/hpides/Deco
 tags:
 - '"stream processing"'
 - '"IoT"'

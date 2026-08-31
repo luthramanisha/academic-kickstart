@@ -1,0 +1,40 @@
+{{ $ := .root }}
+{{ $page := .page }}
+
+{{/* Collect news items from `data/news.toml`, drop drafts, keep 2025-2026, newest first. */}}
+{{ $items := slice }}
+{{ with site.Data.news }}
+  {{ range .item }}
+    {{ if and .date .title | and (not .draft) }}
+      {{ $year := index (split .date "-") 0 }}
+      {{ if in (slice "2025" "2026") $year }}
+        {{ $items = $items | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ if $items }}{{ $items = sort $items "date" "desc" }}{{ end }}
+
+<!-- Recent News widget -->
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
+    {{ with $page.Params.subtitle }}<p class="award-subtitle">{{ . | markdownify }}</p>{{ end }}
+  </div>
+  <div class="col-12 col-lg-8">
+    {{ with $page.Content }}{{ . }}{{ end }}
+
+    {{ if $items }}
+      <ul class="awards-list">
+        {{ range $items }}
+          <li class="awards-list__item">
+            <span class="awards-list__date">{{ with .date_display }}{{ . }}{{ else }}{{ dateFormat "Jan 2006" .date }}{{ end }}</span
+            >.
+            <span class="awards-list__title">{{ $page.RenderString (dict "display" "inline") .title }}</span>
+          </li>
+        {{ end }}
+      </ul>
+      <a href="{{ "news/" | relURL }}" class="awards-list__link" style="display: inline-block; margin-top: 1rem;">More news</a>
+    {{ end }}
+  </div>
+</div>

@@ -15,8 +15,14 @@
   date = "2026-08-31"
   date_display = "August 2026"
   category = "Demo"
-  title = "Demonstrating *Samsara: A Super-Optimizer for Multimodal Stream Processing* at VLDB 2026"
+  title = "*[Samsara](/publication/ferri-2026-samsara-demo-vldb/)* demo accepted at VLDB 2026"
   summary = "A live demo of Samsara, the multimodal stream processing prototype introduced in our EDBT 2026 vision paper."
+  [[item.links]]
+    name = "Program"
+    url = "https://vldb.org/2026/program.html"
+  [[item.links]]
+    name = "Demo paper"
+    url = "/publication/ferri-2026-samsara-demo-vldb/"
   [[item.links]]
     name = "Vision paper"
     url = "/publication/santos-2025-multimodal-stream/"
@@ -31,7 +37,7 @@
   date = "2026-05-31"
   date_display = "May 2026"
   category = "Workshop"
-  title = "Co-organized the *aiDM* workshop at SIGMOD 2026"
+  title = "Co-organized the [*aiDM*](https://aidm-conf.org) workshop at SIGMOD 2026"
   summary = "Program chair for the Ninth International Workshop on Exploiting Artificial Intelligence Techniques for Data Management, co-located with ACM SIGMOD/PODS 2026 in Bengaluru, India."
   [[item.links]]
     name = "Workshop"
@@ -41,8 +47,11 @@
   date = "2026-05-31"
   date_display = "May 2026"
   category = "Paper"
-  title = "*EcoLLM: Energy-Aware Benchmarking of LLMs for Data Processing Workloads* at aiDM@SIGMOD 2026"
+  title = "*[EcoLLM](/publication/agnihotri-2026-ecollm-aidm/)* accepted at aiDM@SIGMOD 2026"
   summary = "A workload-centric benchmark for studying the energy-aware trade-offs of LLMs in data-processing tasks, showing that energy efficiency and task effectiveness are not aligned."
+  [[item.links]]
+    name = "Workshop"
+    url = "https://aidm-conf.org"
   [[item.links]]
     name = "Paper"
     url = "https://dl.acm.org/doi/10.1145/3814940.3815324"
@@ -54,7 +63,7 @@
   date = "2026-03-01"
   date_display = "March 2026"
   category = "Paper"
-  title = "*IMPACT: Integrated Multimodal Pipeline for Rapid Accident Causality Tracking* (Student Abstract) at AAAI 2026"
+  title = "*[IMPACT](/publication/chauhan-2026-impact-aaai/)* accepted at AAAI 2026 (Student Abstract)"
   summary = "A scalable framework for rapid traffic incident analysis over existing CCTV infrastructure, pairing real-time key-frame filtering with multimodal LLM causal reasoning."
   [[item.links]]
     name = "Paper"
@@ -77,7 +86,7 @@
   date = "2026-03-24"
   date_display = "March 2026"
   category = "Paper"
-  title = "*Towards Multimodal Stream Processing Systems* presented at EDBT 2026"
+  title = "*[Towards Multimodal Stream Processing Systems](/publication/santos-2025-multimodal-stream/)* presented at EDBT 2026"
   summary = "A vision for streaming systems that treat multimodal LLMs as first-class operators, so queries can run in real time over text, images, audio and sensor data together."
   [[item.links]]
     name = "Paper"
@@ -90,7 +99,7 @@
   date = "2025-08-01"
   date_display = "August 2025"
   category = "Papers"
-  title = "Two papers on learned cost models in PVLDB Volume 18"
+  title = "Two papers on learned cost models in PVLDB 2025: *[Opening the Black-Box](/publication/heinrich-2025-blackbox-vldb/)* and *[Learned Cost Models for Query Optimization](/publication/heinrich-2025-lcm-streaming-vldb/)*"
   summary = "*Opening the Black-Box: Explaining Learned Cost Models for Databases* brings explainability techniques to learned cost models, and *Learned Cost Models for Query Optimization: From Batch to Streaming Systems* carries them over to streaming workloads."
   [[item.links]]
     name = "Opening the Black-Box"
@@ -103,7 +112,7 @@
   date = "2025-06-01"
   date_display = "June 2025"
   category = "Paper"
-  title = "*How Good are Learned Cost Models, Really?* published at SIGMOD 2025"
+  title = "*[How Good are Learned Cost Models, Really?](/publication/heinrich-2025-lcm-eval-sigmod/)* published at SIGMOD 2025"
   summary = "A study of learned cost models on the query optimization tasks they are meant to support, rather than on estimation accuracy alone."
   [[item.links]]
     name = "Paper"
@@ -116,7 +125,7 @@
   date = "2025-03-25"
   date_display = "March 2025"
   category = "Paper"
-  title = "*Dema* presented at EDBT 2025"
+  title = "*[Dema](/publication/yue-2025-dema-edbt/)* presented at EDBT 2025"
   summary = "Decentralized window aggregation for non-decomposable quantile functions, cutting the network overhead of centralized aggregation in IoT networks."
   [[item.links]]
     name = "Paper"
@@ -126,10 +135,10 @@
     url = "/publication/yue-2025-dema-edbt/"
 
 [[item]]
-  date = "2025-01-01"
-  date_display = "2025"
+  date = "2025-04-01"
+  date_display = "April 2025"
   category = "Award"
-  title = "Named an Athene Young Investigator at TU Darmstadt"
+  title = "Named an [Athene Young Investigator](https://tu-darmstadt.shorthandstories.com/ayi-2025-im-portrait/#group-section-Dr-Manisha-Luthra-Agnihotri) at TU Darmstadt"
   summary = "The programme supports early-career researchers in leading their own junior research group."
   [[item.links]]
     name = "Portrait"

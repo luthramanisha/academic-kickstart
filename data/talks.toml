@@ -19,6 +19,12 @@
   summary = "Host: Prof. Görschwin Fey"
 
 [[item]]
+  date = "2026-05-02"
+  date_display = "May 2026"
+  category = "Invited Talk"
+  title = "German Research Center for Artificial Intelligence (DFKI), Kaiserslautern, Germany"
+
+[[item]]
   date = "2026-05-01"
   date_display = "May 2026"
   category = "Invited Talk"
@@ -108,6 +114,16 @@
   category = "Invited Talk"
   title = "Web Information Systems Group, TU Delft, Netherlands"
   summary = "Host: Prof. Asterios Katsifodimos"
+
+[[item]]
+  date = "2026-03-24"
+  date_display = "March 2026"
+  category = "Contributed Presentation"
+  title = "*Towards Multimodal Stream Processing Systems*"
+  summary = "EDBT 2026"
+  [[item.links]]
+    name = "Publication"
+    url = "/publication/santos-2025-multimodal-stream/"
 
 [[item]]
   date = "2025-09-01"

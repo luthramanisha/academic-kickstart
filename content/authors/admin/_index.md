@@ -10,14 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: Junior Professor
+role: "Junior Professor of [Data-Intensive Systems Chair](https://informatik.rub.de/dsys/), Ruhr Universität Bochum"
 
 # Organizations/Affiliations
 organizations:
-- name: Databases and Information Systems Chair, Ruhr-Universität Bochum
-  url: https://informatik.rub.de/dsys/
-- name: Data and AI Systems Lab, TU Darmstadt
-  url: "https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp"
+- name: Athene Young Investigator, TU Darmstadt
+  url: "https://tu-darmstadt.shorthandstories.com/ayi-2025-im-portrait/#group-section-Dr-Manisha-Luthra-Agnihotri"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include stream processing/complex event processing, modern hardware and networks.
@@ -59,12 +57,8 @@ highlight_name: true
 # - Researchers
 # - Visitors
 ---
-I am a researcher working at the intersection of real-time data systems, machine learning, and intelligent data processing. My goal is to build the next generation of data systems that not only process continuous streams of data with high performance but also learn, adapt, and understand rich, multimodal inputs such as text, images, audio, and sensor signals all at real-time. 
-Starting April 2026, I joined [Ruhr-Universität Bochum](https://informatik.rub.de/en/faculty/) as a Junior Professor of Databases and Information Systems, where I will establish a research group on next-generation data systems that combine classical data system principles with modern AI techniques.
+I am a researcher working at the intersection of data systems and artificial intelligence. My research focuses on next-generation data systems that combine classical data system principles with modern AI techniques to learn and adapt, understand multimodal data, and process data efficiently in real time. My work spans [AI-enhanced data systems](/publication/heinrich-2024-costream-icde/), [multimodal data processing](/publication/santos-2025-multimodal-stream/), [scalable and distributed data systems](/publication/luthra-2021-tcepjournal/), and [benchmarking and evaluation](/publication/agnihotri-2024-pdspbench-tpctc/).
 
-I am also a Junior Research Group Lead as [Athene Young Investigator](https://tu-darmstadt.shorthandstories.com/ayi-2025-im-portrait/#group-section-Dr-Manisha-Luthra-Agnihotri) at the
-[Systems Group](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) of TU Darmstadt. Before that, I was a deputy head leading the [SAIDE Lab ](https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung) of German Research Centre for Artificial Intelligence (DFKI) Darmstadt together with [Prof. Carsten Binnig](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_18624.en.jsp).
+In April 2026, I joined [Ruhr Universität Bochum](https://informatik.rub.de/en/faculty/) as a Junior Professor of [Data-Intensive Systems Chair](https://informatik.rub.de/dsys/), where I am establishing a research group around this vision. Before joining RUB, I was a postdoctoral researcher at [TU Darmstadt](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/index.en.jsp) and Deputy Head of the [SAIDE Lab](https://www.dfki.de/web/forschung/forschungsbereiche/systemische-ki-fuer-entscheidungsunterstuetzung) at the German Research Center for Artificial Intelligence (DFKI), working with [Prof. Carsten Binnig](https://www.informatik.tu-darmstadt.de/systems/systems_tuda/group/team_detail_18624.en.jsp). I continue to be affiliated with TU Darmstadt as an [Athene Young Investigator](https://tu-darmstadt.shorthandstories.com/ayi-2025-im-portrait/#group-section-Dr-Manisha-Luthra-Agnihotri).
 
-In 2021, I completed my doctoral degree (officially, Dr.-Ing. or Doctor of Engineering) from
-[TU Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/) with a thesis on [Network-centric Complex Event Processing](https://tuprints.ulb.tu-darmstadt.de/19285/) that was graded with summa cum laude.
-My thesis received the _German national award_ for the [_Best Ph.D. thesis in the field of distributed systems_](https://manishaluthra.com/files/kuvs-dissertation-certificate.pdf) by the [special interest group on Communication and Distributed Systems (KuVS)](https://www.kuvs.de/awards/).
+I received my Ph.D. from [TU Darmstadt](https://www.kom.tu-darmstadt.de/kom-multimedia-communications-lab/). My dissertation focused on [network-centric abstractions and optimizations for distributed complex event processing](https://tuprints.ulb.tu-darmstadt.de/19285/) and received the 2023 [KuVS Dissertation Award](https://manishaluthra.com/files/kuvs-dissertation-certificate.pdf). My research has been published at leading data management venues including SIGMOD, VLDB, ICDE, and EDBT.

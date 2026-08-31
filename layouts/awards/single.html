@@ -1,0 +1,56 @@
+{{- define "main" -}}
+{{- $page := . -}}
+
+{{/* Collect awards from `data/awards.toml`, drop drafts, newest first. */}}
+{{- $items := slice -}}
+{{- with site.Data.awards -}}
+  {{- range .item -}}
+    {{- if and .date .title | and (not .draft) -}}
+      {{- $items = $items | append . -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- if $items -}}{{- $items = sort $items "date" "desc" -}}{{- end -}}
+
+<article class="news-page">
+
+  <div class="universal-wrapper pt-3">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="page-subtitle">{{ . | markdownify | emojify }}</p>{{ end }}
+  </div>
+
+  <div class="universal-wrapper">
+    {{ with .Content }}<div class="article-style news-intro">{{ . }}</div>{{ end }}
+
+    {{ if $items }}
+      <ul class="awards-list">
+        {{ range $items }}
+          <li class="awards-list__item">
+            <span class="awards-list__title">{{ $page.RenderString (dict "display" "inline") .title }}</span
+            >{{ with .date_display }}<span class="awards-list__date">, {{ . }}</span>{{ end }}.
+            {{ with .summary }}
+              <span class="awards-list__summary">{{ $page.RenderString (dict "display" "inline") . }}</span>
+            {{ end }}
+            {{ with .links }}
+              {{ range . }}
+                {{ if and .name .url }}
+                  {{ $external := hasPrefix .url "http" }}
+                  <a class="awards-list__link" href="{{ if $external }}{{ .url }}{{ else }}{{ .url | relURL }}{{ end }}"
+                     {{ if $external }}target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      <div class="news-empty">
+        <p class="news-empty__title">No awards yet.</p>
+        <p class="news-empty__hint">Add an <code>[[item]]</code> block to <code>data/awards.toml</code> and it will appear here.</p>
+      </div>
+    {{ end }}
+  </div>
+
+</article>
+
+{{- end -}}

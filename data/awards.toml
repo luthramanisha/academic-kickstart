@@ -1,0 +1,52 @@
+# Awards shown on the /awards/ page.
+#
+# date         Required. "YYYY-MM-DD". Used for sorting and for the displayed date.
+# date_display Optional. Overrides the displayed date, e.g. "2025" or "September 2023".
+# title        Required. One line, e.g. "Award Name, Awarding Organization". Markdown allowed.
+# summary      Optional. A short sentence of context. Markdown is allowed.
+# links        Optional. Any number of [[item.links]] blocks with `name` and `url`.
+# draft        Optional. Set to true to hide an item without deleting it.
+
+[[item]]
+  date = "2025-04-01"
+  date_display = "April 2025"
+  title = "Athene Young Investigator, Technische Universität Darmstadt"
+  summary = "Qualifies early-career researchers for a professorship by increasing their scientific independence, teaching experience, and research visibility."
+
+[[item]]
+  date = "2023-09-01"
+  date_display = "September 2023"
+  title = "German National Award for Top Dissertation, KuVS"
+  summary = "Winner of the top dissertation from the summa cum laude submissions all over Germany in the area of communication and distributed systems."
+
+[[item]]
+  date = "2021-10-01"
+  date_display = "2021"
+  title = "Zeiss Scholarship for Top Dissertation, Zeiss International"
+  summary = "One of 15 dissertations selected from over 100 submissions."
+
+[[item]]
+  date = "2021-09-01"
+  date_display = "September 2021"
+  title = "Grace Hopper Conference Faculty Scholarship, AnitaB.org"
+  summary = "One of 86 awardees from female faculty worldwide."
+
+[[item]]
+  date = "2021-05-01"
+  date_display = "May 2021"
+  title = "Grace Hopper Conference EMEA Student Scholarship, AnitaB.org"
+
+[[item]]
+  date = "2016-10-01"
+  date_display = "October 2016"
+  title = "MAKI Female Mentoring and Networking Award for Master Thesis, DFG CRC 1053 MAKI"
+
+[[item]]
+  date = "2015-06-01"
+  date_display = "June 2015"
+  title = "MAKI Female Student Travel Award, DFG CRC 1053 MAKI"
+
+[[item]]
+  date = "2011-01-01"
+  date_display = "2011"
+  title = "Silver Award, Sony Corporation Japan project at HCL Technologies Pvt. Ltd."

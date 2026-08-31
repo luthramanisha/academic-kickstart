@@ -418,3 +418,69 @@ $news-rail-color-dark: rgba(lighten($sta-primary, 25%), 0.35);
     color: rgba(255, 255, 255, 0.76);
   }
 }
+
+/*************************************************
+ *  Awards page (`content/awards.md` + `data/awards.toml`)
+ **************************************************/
+
+.awards-list {
+  max-width: 42rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.awards-list__item {
+  position: relative;
+  padding: 0.85rem 0 0.85rem 1.3rem;
+  border-bottom: 1px solid $news-rail-color;
+  line-height: 1.6;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 1.35rem;
+    left: 0;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: $sta-primary;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.awards-list__title {
+  font-weight: 600;
+}
+
+.awards-list__date {
+  opacity: 0.75;
+}
+
+.awards-list__summary {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 0.92rem;
+  opacity: 0.82;
+}
+
+.awards-list__link {
+  margin-left: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+
+  &::after {
+    content: "\2192";
+    margin-left: 0.25rem;
+    opacity: 0.55;
+  }
+}
+
+.dark {
+  .awards-list__item {
+    border-bottom-color: $news-rail-color-dark;
+  }
+}

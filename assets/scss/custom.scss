@@ -513,3 +513,22 @@ $news-rail-color-dark: rgba(lighten($sta-primary, 25%), 0.35);
     line-height: 1.6;
   }
 }
+
+/*************************************************
+ *  Research Themes widget (`content/home/research_themes.md`)
+ **************************************************/
+
+.wg-blank {
+  .section-heading p {
+    color: rgba($sta-primary, 0.75);
+  }
+}
+
+// Research theme entries reuse `.awards-list` (see Awards page section above),
+// the same one-line-per-item + hairline-divider pattern used by the Recent News widget.
+.research-themes-list {
+  .awards-list__summary {
+    display: inline;
+    margin-top: 0;
+  }
+}

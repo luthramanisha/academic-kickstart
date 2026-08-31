@@ -1,5 +1,5 @@
 ---
-title: Mentoring
+title: People
 subtitle: Current and former students I've supervised.
 type: people
 

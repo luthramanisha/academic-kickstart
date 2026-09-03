@@ -8,6 +8,12 @@
 # draft        Optional. Set to true to hide an item without deleting it.
 
 [[item]]
+  date = "2026-09-03"
+  date_display = "September 2026"
+  title = "Best Demo Award, VLDB 2026"
+  summary = "Awarded for Samsara, a super-optimizer for multimodal stream processing, demonstrated at VLDB 2026."
+
+[[item]]
   date = "2025-04-01"
   date_display = "April 2025"
   title = "Athene Young Investigator, Technische Universität Darmstadt"
